@@ -1,0 +1,32 @@
+--------------------------------------------------------------------------------
+[Apr 30, 2025 11:46:28.4 AM GMT:ERROR:database_manager.cc(177)] Database downgrade not supported from schema version 48 to schema version 45
+[Apr 30, 2025 11:46:28.4 AM GMT:ERROR:ads_impl.cc(368)] Failed to create or open database
+[Apr 30, 2025 11:46:28.4 AM GMT:ERROR:ads_impl.cc(35)] Failed to initialize ads
+--------------------------------------------------------------------------------
+[May 04, 2025 7:19:59.5 AM GMT:ERROR:database_manager.cc(177)] Database downgrade not supported from schema version 48 to schema version 45
+[May 04, 2025 7:19:59.5 AM GMT:ERROR:ads_impl.cc(368)] Failed to create or open database
+[May 04, 2025 7:19:59.5 AM GMT:ERROR:ads_impl.cc(35)] Failed to initialize ads
+--------------------------------------------------------------------------------
+[May 04, 2025 7:35:56.4 AM GMT:ERROR:database_manager.cc(177)] Database downgrade not supported from schema version 48 to schema version 45
+[May 04, 2025 7:35:56.4 AM GMT:ERROR:ads_impl.cc(368)] Failed to create or open database
+[May 04, 2025 7:35:56.4 AM GMT:ERROR:ads_impl.cc(35)] Failed to initialize ads
+--------------------------------------------------------------------------------
+[May 04, 2025 9:29:43.4 AM GMT:ERROR:database_manager.cc(177)] Database downgrade not supported from schema version 48 to schema version 45
+[May 04, 2025 9:29:43.4 AM GMT:ERROR:ads_impl.cc(368)] Failed to create or open database
+[May 04, 2025 9:29:43.4 AM GMT:ERROR:ads_impl.cc(35)] Failed to initialize ads
+--------------------------------------------------------------------------------
+[May 04, 2025 10:31:07.6 AM GMT:ERROR:database_manager.cc(177)] Database downgrade not supported from schema version 48 to schema version 45
+[May 04, 2025 10:31:07.6 AM GMT:ERROR:ads_impl.cc(368)] Failed to create or open database
+[May 04, 2025 10:31:07.6 AM GMT:ERROR:ads_impl.cc(35)] Failed to initialize ads
+--------------------------------------------------------------------------------
+[May 04, 2025 11:09:56.8 AM GMT:ERROR:database_manager.cc(177)] Database downgrade not supported from schema version 48 to schema version 45
+[May 04, 2025 11:09:56.8 AM GMT:ERROR:ads_impl.cc(368)] Failed to create or open database
+[May 04, 2025 11:09:56.8 AM GMT:ERROR:ads_impl.cc(35)] Failed to initialize ads
+--------------------------------------------------------------------------------
+[May 05, 2025 1:21:20.2 PM GMT:ERROR:database_manager.cc(177)] Database downgrade not supported from schema version 48 to schema version 45
+[May 05, 2025 1:21:20.2 PM GMT:ERROR:ads_impl.cc(368)] Failed to create or open database
+[May 05, 2025 1:21:20.2 PM GMT:ERROR:ads_impl.cc(35)] Failed to initialize ads
+--------------------------------------------------------------------------------
+[May 07, 2025 7:15:22.6 AM GMT:ERROR:database_manager.cc(177)] Database downgrade not supported from schema version 48 to schema version 45
+[May 07, 2025 7:15:22.6 AM GMT:ERROR:ads_impl.cc(368)] Failed to create or open database
+[May 07, 2025 7:15:22.6 AM GMT:ERROR:ads_impl.cc(35)] Failed to initialize ads

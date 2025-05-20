@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "44ff072e-955f-451c-a96a-def809c7f504",
+      "logo": {
+        "imageUrl": "6b7ded29-0d72-4917-a16b-4fc4fbec70c5/0928ee39-1304-4590-ab9b-2e3973f53ffe.png",
+        "destinationUrl": "https://unstoppabledomains.com/",
+        "alt": "Unstoppable Domains - It's your name. own it. - Domains from $2. No gas fees, Ownership for life.",
+        "companyName": "Unstoppable Domains"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "6b7ded29-0d72-4917-a16b-4fc4fbec70c5/b4521023-c716-4392-86d9-110f8f27f453.jpg",
+          "creativeInstanceId": "161c2def-b8a0-44a2-afec-da4993d57c44",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "fed7cbc8-4ac4-4811-a443-227a95fec7bb/c964e2e4-be61-46e0-8a5e-50f03405f3f0.jpg",
+          "creativeInstanceId": "074fc3b3-bde1-4be5-9af6-ecac68fc1316",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "fed7cbc8-4ac4-4811-a443-227a95fec7bb/0928ee39-1304-4590-ab9b-2e3973f53ffe.png",
+            "destinationUrl": "https://unstoppabledomains.com/",
+            "alt": "Unstoppable Domains - It's your name. own it. - Domains from $2. No gas fees, Ownership for life.",
+            "companyName": "Unstoppable Domains"
+          }
+        },
+        {
+          "imageUrl": "2eb23d9c-8dd8-4625-ab90-b00bb5bf2234/f82f67da-e5ce-46c1-a73e-9dff5333c8fe.jpg",
+          "creativeInstanceId": "d8aa5723-b3b2-4dac-8f47-f23ce835e2e9",
+          "focalPoint": {
+            "x": 1292,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "2eb23d9c-8dd8-4625-ab90-b00bb5bf2234/0928ee39-1304-4590-ab9b-2e3973f53ffe.png",
+            "destinationUrl": "https://unstoppabledomains.com/",
+            "alt": "Unstoppable Domains - It's your name. own it. - Domains from $2. No gas fees, Ownership for life.",
+            "companyName": "Unstoppable Domains"
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "44ff072e-955f-451c-a96a-def809c7f504",
+      "logo": {
+        "imageUrl": "6b7ded29-0d72-4917-a16b-4fc4fbec70c5/0928ee39-1304-4590-ab9b-2e3973f53ffe.png",
+        "destinationUrl": "https://unstoppabledomains.com/",
+        "alt": "Unstoppable Domains - It's your name. own it. - Domains from $2. No gas fees, Ownership for life.",
+        "companyName": "Unstoppable Domains"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "6b7ded29-0d72-4917-a16b-4fc4fbec70c5/b4521023-c716-4392-86d9-110f8f27f453.jpg",
+          "creativeInstanceId": "161c2def-b8a0-44a2-afec-da4993d57c44",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "fed7cbc8-4ac4-4811-a443-227a95fec7bb/c964e2e4-be61-46e0-8a5e-50f03405f3f0.jpg",
+          "creativeInstanceId": "074fc3b3-bde1-4be5-9af6-ecac68fc1316",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "fed7cbc8-4ac4-4811-a443-227a95fec7bb/0928ee39-1304-4590-ab9b-2e3973f53ffe.png",
+            "destinationUrl": "https://unstoppabledomains.com/",
+            "alt": "Unstoppable Domains - It's your name. own it. - Domains from $2. No gas fees, Ownership for life.",
+            "companyName": "Unstoppable Domains"
+          }
+        },
+        {
+          "imageUrl": "2eb23d9c-8dd8-4625-ab90-b00bb5bf2234/f82f67da-e5ce-46c1-a73e-9dff5333c8fe.jpg",
+          "creativeInstanceId": "d8aa5723-b3b2-4dac-8f47-f23ce835e2e9",
+          "focalPoint": {
+            "x": 1292,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "2eb23d9c-8dd8-4625-ab90-b00bb5bf2234/0928ee39-1304-4590-ab9b-2e3973f53ffe.png",
+            "destinationUrl": "https://unstoppabledomains.com/",
+            "alt": "Unstoppable Domains - It's your name. own it. - Domains from $2. No gas fees, Ownership for life.",
+            "companyName": "Unstoppable Domains"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+   "action": {
+      "default_icon": "icon-128-enabled.png",
+      "default_popup": "popup/popup.html"
+   },
+   "background": {
+      "service_worker": "sw.js"
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "description": "RealProxy - простой и надежный способ для обхода блокировок запрещенных сайтов в России и Украине. Доступ и ускорение Ютуб.",
+   "homepage_url": "https://realproxy.xyz",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "icon-128-enabled.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4hGHrS28jsxQ6108bB2z7PdG79DiXQXMTStMCLcC9LRlPbwDrqkkNhLNiqyEaJ4KARa5iWw2erNp5T4rHQLxrxjKst64R9aESHfauIb8g0mAcqfenJ7bCphUVhWgq/6szWWwvgDHwguR5iic/Cm8189hUGiipYIGra9onLphcqadZBVNK0PLiFnp16k8+2mA7UdjAjV0Xi0LQrhOWYG7DGXpRw7MKUhTWZC4K9zNPbsBkVN3+dYVYKH7Mttctk9/kiid+hBd60gdzW1RUd3LopUlSgifLKchNgjOjLCRsA8lyUvKe4BbB8vvzL2lLFtD+KJNOTHcFTWwptP+dji7bwIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "104.0.0.0",
+   "name": "RealProxy - доступ в России и Украине: обход блокировок и ускорение YouTube",
+   "optional_permissions": [ "management" ],
+   "permissions": [ "proxy", "tabs", "webRequest", "storage", "unlimitedStorage", "alarms", "scripting", "declarativeNetRequest", "webRequestAuthProvider" ],
+   "short_name": "RealProxy",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.4"
+}

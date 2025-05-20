@@ -1,0 +1,7 @@
+2025/04/21-22:21:57.366 a4d7 Reusing MANIFEST /home/shiro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mangalib.me_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/21-22:21:57.367 a4d7 Recovering log #3
+2025/04/21-22:21:57.367 a4d7 Reusing old log /home/shiro/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mangalib.me_0.indexeddb.leveldb/000003.log 
+2025/04/21-22:21:59.566 a4d7 Level-0 table #5: started
+2025/04/21-22:21:59.568 a4d7 Level-0 table #5: 1046 bytes OK
+2025/04/21-22:21:59.571 a4d7 Delete type=0 #3
+2025/04/21-22:21:59.571 a4d7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

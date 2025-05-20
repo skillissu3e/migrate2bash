@@ -1,0 +1,20 @@
+2025/05/19-16:48:20.163 4 Reusing MANIFEST /home/dara/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2025/05/19-16:48:20.169 4 Recovering log #478
+2025/05/19-16:48:20.170 4 Level-0 table #481: started
+2025/05/19-16:48:20.173 4 Level-0 table #481: 27643 bytes OK
+2025/05/19-16:48:20.174 4 Recovering log #481
+2025/05/19-16:48:20.174 4 Reusing old log /home/dara/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000481.log 
+2025/05/19-16:48:20.178 4 Delete type=2 #482
+2025/05/19-16:48:20.178 4 Delete type=0 #478
+2025/05/19-16:48:20.179 5 Compacting 4@0 + 1@1 files
+2025/05/19-16:48:20.219 5 Generated table #482@0: 1758 keys, 2071223 bytes
+2025/05/19-16:48:20.219 5 Compacted 4@0 + 1@1 files => 2071223 bytes
+2025/05/19-16:48:20.221 5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/05/19-16:48:20.223 5 Delete type=2 #475
+2025/05/19-16:48:20.223 5 Delete type=2 #477
+2025/05/19-16:48:20.223 5 Delete type=2 #472
+2025/05/19-16:48:20.223 5 Delete type=2 #481
+2025/05/19-16:48:20.223 5 Delete type=2 #479
+2025/05/19-17:18:15.833 5 Level-0 table #484: started
+2025/05/19-17:18:15.835 5 Level-0 table #484: 17482 bytes OK
+2025/05/19-17:18:15.839 5 Delete type=0 #481

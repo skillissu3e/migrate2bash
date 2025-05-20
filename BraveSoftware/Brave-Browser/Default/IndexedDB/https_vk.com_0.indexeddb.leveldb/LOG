@@ -1,0 +1,6 @@
+2025/05/19-16:22:47.544 444 Reusing MANIFEST /home/dara/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_vk.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/19-16:22:47.545 444 Recovering log #19
+2025/05/19-16:22:47.560 444 Reusing old log /home/dara/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_vk.com_0.indexeddb.leveldb/000019.log 
+2025/05/19-16:23:03.602 445 Level-0 table #24: started
+2025/05/19-16:23:03.617 445 Level-0 table #24: 646834 bytes OK
+2025/05/19-16:23:03.620 445 Delete type=0 #19

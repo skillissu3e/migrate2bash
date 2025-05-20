@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "6af2b99c-5f37-4e8b-834b-e79fb3433ee1",
+      "logo": {
+        "imageUrl": "722beec6-00a5-466c-a16b-46c97ea18822/95d3a1bd-5338-4577-b965-fa2de0e5741d.png",
+        "destinationUrl": "https://fsl.com/gmtpay",
+        "alt": "GMT Pay - Spend your web3 earnings - learn more",
+        "companyName": "FSL | GMT Pay"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "722beec6-00a5-466c-a16b-46c97ea18822/456c04e8-6c0a-44f8-b731-171f4f7f3970.jpg",
+          "creativeInstanceId": "5e76e21a-0316-46e0-b1c3-6c71514b0494",
+          "focalPoint": {
+            "x": 1395,
+            "y": 720
+          }
+        }
+      ]
+    },
+    {
+      "campaignId": "c189cd50-e2ef-435a-9554-af25b897024a",
+      "logo": {
+        "imageUrl": "d9713e0a-3c94-45f6-95fb-43a1588511a3/e7864f22-c879-4ba7-a7cb-32d8a6367ba5.png",
+        "destinationUrl": "https://www.guanocoin.com/",
+        "alt": "Guano - Earn $GUANO by locking your $PENGU tokens. Load the cave. Try it now!",
+        "companyName": "Guano"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "d9713e0a-3c94-45f6-95fb-43a1588511a3/11b2f1dc-3c05-4ab1-8f11-86b14d1a9602.jpg",
+          "creativeInstanceId": "24d542b3-33a0-4a54-8180-dc5b33b458a0",
+          "focalPoint": {
+            "x": 1551,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "98c8851e-601a-44de-87e7-ffa7c9d4ce1a/744b9ec2-1e33-43d1-8e9d-e36b0120d303.jpg",
+          "creativeInstanceId": "2e40a900-c8bc-4836-b5c2-706c5fd11d7d",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "98c8851e-601a-44de-87e7-ffa7c9d4ce1a/964313c2-4082-4a8b-ac6f-8b976a6d79b5.png",
+            "destinationUrl": "https://www.youtube.com/watch?v=DjkM5rVXowU",
+            "alt": "Coinage - Coinage with Zack Guzman - Making Sense of crypto - Learn More",
+            "companyName": "Coinage"
+          }
+        },
+        {
+          "imageUrl": "404d8951-4ede-4ddd-af0f-9e79d7151224/b3173e09-7452-47ec-809d-28843983c47e.jpg",
+          "creativeInstanceId": "121e4c95-4711-4734-a6e7-9240e47a8c4e",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "404d8951-4ede-4ddd-af0f-9e79d7151224/29a3da8d-feb1-4190-8004-5c1d27c346f6.png",
+            "destinationUrl": "https://chomp.games/",
+            "alt": "CHOMP - Earn from your answers now",
+            "companyName": "CHOMP"
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "6af2b99c-5f37-4e8b-834b-e79fb3433ee1",
+      "logo": {
+        "imageUrl": "722beec6-00a5-466c-a16b-46c97ea18822/95d3a1bd-5338-4577-b965-fa2de0e5741d.png",
+        "destinationUrl": "https://fsl.com/gmtpay",
+        "alt": "GMT Pay - Spend your web3 earnings - learn more",
+        "companyName": "FSL | GMT Pay"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "722beec6-00a5-466c-a16b-46c97ea18822/456c04e8-6c0a-44f8-b731-171f4f7f3970.jpg",
+          "creativeInstanceId": "5e76e21a-0316-46e0-b1c3-6c71514b0494",
+          "focalPoint": {
+            "x": 1395,
+            "y": 720
+          }
+        }
+      ]
+    },
+    {
+      "campaignId": "c189cd50-e2ef-435a-9554-af25b897024a",
+      "logo": {
+        "imageUrl": "d9713e0a-3c94-45f6-95fb-43a1588511a3/e7864f22-c879-4ba7-a7cb-32d8a6367ba5.png",
+        "destinationUrl": "https://www.guanocoin.com/",
+        "alt": "Guano - Earn $GUANO by locking your $PENGU tokens. Load the cave. Try it now!",
+        "companyName": "Guano"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "d9713e0a-3c94-45f6-95fb-43a1588511a3/11b2f1dc-3c05-4ab1-8f11-86b14d1a9602.jpg",
+          "creativeInstanceId": "24d542b3-33a0-4a54-8180-dc5b33b458a0",
+          "focalPoint": {
+            "x": 1551,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "98c8851e-601a-44de-87e7-ffa7c9d4ce1a/744b9ec2-1e33-43d1-8e9d-e36b0120d303.jpg",
+          "creativeInstanceId": "2e40a900-c8bc-4836-b5c2-706c5fd11d7d",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "98c8851e-601a-44de-87e7-ffa7c9d4ce1a/964313c2-4082-4a8b-ac6f-8b976a6d79b5.png",
+            "destinationUrl": "https://www.youtube.com/watch?v=DjkM5rVXowU",
+            "alt": "Coinage - Coinage with Zack Guzman - Making Sense of crypto - Learn More",
+            "companyName": "Coinage"
+          }
+        },
+        {
+          "imageUrl": "404d8951-4ede-4ddd-af0f-9e79d7151224/b3173e09-7452-47ec-809d-28843983c47e.jpg",
+          "creativeInstanceId": "121e4c95-4711-4734-a6e7-9240e47a8c4e",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "404d8951-4ede-4ddd-af0f-9e79d7151224/29a3da8d-feb1-4190-8004-5c1d27c346f6.png",
+            "destinationUrl": "https://chomp.games/",
+            "alt": "CHOMP - Earn from your answers now",
+            "companyName": "CHOMP"
+          }
+        }
+      ]
+    }
+  ]
+}
