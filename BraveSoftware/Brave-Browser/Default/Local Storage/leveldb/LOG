@@ -1,3 +1,9 @@
 2025/05/20-10:18:01.633 4 Reusing MANIFEST /home/dara/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
 2025/05/20-10:18:01.640 4 Recovering log #483
 2025/05/20-10:18:01.640 4 Reusing old log /home/dara/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000483.log 
+2025/05/20-10:23:20.494 5 Level-0 table #487: started
+2025/05/20-10:23:20.504 5 Level-0 table #487: 20868 bytes OK
+2025/05/20-10:23:20.508 5 Delete type=0 #483
+2025/05/20-10:24:24.627 5 Level-0 table #489: started
+2025/05/20-10:24:24.635 5 Level-0 table #489: 17120 bytes OK
+2025/05/20-10:24:24.638 5 Delete type=0 #486

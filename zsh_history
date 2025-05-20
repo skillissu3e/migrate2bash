@@ -1,0 +1,2883 @@
+sudo pacman -S rustup
+rustup default stable
+cd .paru
+makepkg -si
+cd ..
+ls
+rm .paru
+paru -S swayfx
+cp -r 1/sway /home/dara/.config
+sway
+sudo pacman -S swaybg
+ghostty
+sudo pacman -S ghostty
+cp -r 1/ghostty /home/dara/.config
+cd /home/dara/.config
+ls
+cd
+sudo pacman -S eza
+cd -
+ls
+sway
+paru -S fzf-tab
+cd
+git clone https://github.com/Aloxaf/fzf-tab ~/.extra/Aloxaf_fzf-tab
+nvim .config/zsh/.zshrc
+cd .extra
+ls
+mkdir zsh
+mv Aloxaf_fzf-tab zsh
+cd
+reboot
+sway
+where git-zsh-completion
+sudo pacman -R  git-zsh-completion
+sudo pacman -S zsh-autosuggestions
+v .config/zsh/.zshrc
+sudo pacman -R  zsh-autocomplete
+clear
+reboot
+sway
+ll
+rm .bash_history .bash_logout .bash_profile .bashrc 
+ll
+clear
+sudo pacman -S noto-fonts noto-fonts-emoji noto-fonts-cjk
+cp -r 1/nvim /home/dara/.config
+v .
+sudo pacman -S go
+v .
+ls
+cd .config
+ls
+rm nvim 
+v .
+ls
+cd 
+cd .local
+ls
+cd share
+ls
+rm nvim
+cd ../state
+ls
+rm nvim
+rm zsh-autocomplete
+ls
+cd -
+ls
+cd zsh/h
+cd zsh/
+ls
+clear
+ls
+cd
+v .config/zsh/.zshrc
+v /usr/share/zsh
+cp -r 1/nvim /home/dara/.config
+v main.go
+sudo pacman -S zip unzip
+v main.go
+clear
+ls
+cd 1
+ls
+sudo pacman -S brightnessctl
+clear
+ls
+rm 1
+clear
+ls
+ll
+clear
+cd .config/zsh
+ls
+ll
+v aliases.zsh
+cd
+paru -Syu
+v aliases.zsh
+cd -
+v aliases.zsh
+cd
+sudo pacman -Rs -
+sudo pacman -Sc
+clear
+sudo pacman -S -needed linux-lts linux-lts-headers
+sudo pacman -S --needed linux-lts linux-lts-headers
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+clear
+sudo pacman -S p7zip unrar tar rsync
+sudo nvim /etc/pacman.conf
+sudo pacman -S pacman-contrib
+sudo pacman -Syyu
+sudo pacman -S pacman-contrib
+sudo systemctl edit paccache.service
+echo $EDITOR
+sudo systemctl nvim paccache.service
+sudo systemctl edit paccache.service
+export $EDITOR=nvim
+sudo systemctl edit paccache.service
+sudo systemctl enable --now paccache.timer
+v /etc/pacman.d/
+sudo -E systemctl edit paccache.service
+clear
+sudo -E systemctl edit paccache.service
+clear
+sudo -E systemctl edit paccache.service
+systemctl list-timers | grep paccache
+systemctl cat paccache.service | grep "ExecStart"
+sudo -E systemctl edit paccache.service
+sudo pacman -S bat
+clear
+ls
+systemctl list-timers | grep paccache
+clear
+systemctl status paccache.service
+clear
+sudo -E systemctl edit paccache.service
+sudo systemctl daemon-reload
+sudo systemctl restart paccache.timer
+clear
+systemctl cat paccache.service | grep "ExecStart"
+sudo -E systemctl edit paccache.service
+sudo systemctl restart paccache.timer
+sudo systemctl daemon-reload
+sudo systemctl restart paccache.timer
+sudo paccache -r -k 1
+clear
+ls
+paru -S brave-bin
+brave
+v .zprofile
+reboot
+sway
+brave
+ls
+clear
+ls
+v .zprofile
+cd .config/zsh
+v .zshrc
+source .zshrc
+brave
+source .zshrc
+cd .config/zsh
+v .zshrc
+cd 
+v .zprofile
+clear
+ls
+cd .config
+ls
+cd 
+sudo pacman -Rsc brave-bin
+cd .config
+ls
+rm BraveSoftware
+cd
+sudo pacman -Rns $(pacman -Qdtq)
+sudo pacdiff --remove
+paru -S brave-bin
+sudo pacman -Rscun brave-bin
+cd .config
+ls
+clear
+ls
+v ghostty/config
+ls
+ll
+cd .config
+v ghostty/config
+v .config/ghostty/config
+ll
+paru -S google-chrome
+clear
+ls
+google-chrome-stable
+google-chrome-stable --ozone-platform-hint=wayland
+sudo -E systemctl edit paccache.service
+systemctl status paccache.service
+sudo systemctl status paccache.service
+systemctl cat paccache.service | grep ExecStart
+sudo -E systemctl edit paccache.service
+sudo systemctl daemon-reload
+systemctl cat paccache.service | grep ExecStart
+sudo -E systemctl edit paccache.service
+clear
+sudo pacman -Rscun pacman-contrib
+clear
+ls
+sudo pacman -S pacman-contrib
+sudo -E nvim /usr/share/libalpm/hooks/paccache.hook
+sudo pacman -Qtdq
+du -sh ~/.cache/
+sudo pacman -S rmlint
+sudo pacman -S xdg-open
+sudo pacman -S xdg-utils
+clear
+sudo pacman -S amd-ucode
+sudo pacman -S reflector
+sudo reflector --verbose --latest 5 --sort rate --save /etc/pacman.d/mirrorlist
+sudo reflector --latest 200 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+clear
+ls
+echo $path
+clear
+ls
+clear
+ls
+v .zprofile
+rebooy
+reboot
+sway
+v .zprofile
+reboot
+sway
+v .zprofile
+source .zprofile
+sway
+v .zprofile
+source .zprofile
+sway
+source .config/zsh/.zshrc
+sway
+reboot
+sway
+cd .config/nvim
+ls
+cd lua/plugins
+ls
+v lsp-config.lua
+google-chrome-stable --ozone-platform-hint=wayland
+v lsp-config.lua
+cd
+sudo pacman -S nodejs
+v 
+ls -a
+sudo pacman -Rscun nodejs
+sudo pacman -S npm
+v 
+cd .config/nvim
+v lua/plugins/lsp-config.lua
+clear
+ls
+cd
+ll
+v .zprofile
+echo $NPM_HOME
+where npm
+sudo pacman -S wtf
+cd .config
+ls
+cd
+echo $npm_config_prefix
+echo $NPM
+cd .npm
+ls
+cd ..
+ls
+ll
+cd lo
+cd .local
+ls
+cd state
+ls
+cd ..
+cd share
+ll
+cd ..
+ls
+cd ..
+ls
+ll
+cd .pki
+ls
+v haha.txt
+ll
+clear
+ls
+echo $npm_config_userconfig
+v .
+sudo pacman -Rscun npm
+v .zprofile
+sudo pacman -S npm
+reboot
+sway
+v .zprofile
+ll
+rm .npm
+cd .config
+ls
+v .zprofile
+rm go
+ls
+cd ..
+ls
+cd .local
+ls
+cd share
+ls
+rm go
+v mimeapps.list
+rm mimeapps.list
+cd ..
+cd state
+ls
+cd ..
+ls
+sudo pacman -Rscun npm go
+sudo pacman -Rscun go
+clear
+sudo pacman -S npm go
+ll
+cd .cache
+ls
+v zsh
+ll
+v .zprofile
+v .config/zsh/.zshrc
+sudo pacman -Rscun go npm
+ll
+sl
+ls
+cd zsh
+ls
+v zsh_history
+cd .local
+ls
+cd share
+ls
+cd ..
+cd state
+ls
+cd
+ls
+ll
+cd .config
+ls
+sudo pacman -S go npm
+ll
+sudo pacman -Syyu
+cd .config/nvim
+ls
+v ~/.config/zsh/.zshrc
+cd lua/plugins
+v lsp-config.lua
+v check_webservers.yml
+v check_webservers.yaml
+ls
+ll
+v haha.yaml
+ls
+v haha.txt
+rm haha.txt
+ls
+cd .config/sway
+v config
+v test.typ
+rm test.typ
+v typst-preview.lua
+v .zprofile
+v typst-preview.lua
+v .zprofile
+v .config/zsh/.zshrc
+source .config/zsh/.zshrc
+google-chrome-stable
+source .config/zsh/.zshrc
+v .config/zsh/.zshrc
+sudo ln -s ~/.zprofile /etc/profile.d/env.sh
+chmod 644 ~/.zprofile
+ls -l /etc/profile.d/env.sh
+google-chrome-stable
+v .config/zsh/.zshrc
+v .zprofile
+google-chrome-stable
+v .zprofile
+cat /etc/profile.d/env.sh
+$BROWSER
+v .config/zsh/.zshrc
+v .zprofile
+ls -l /etc/profile.d/env.sh
+rm /etc/profile.d/env.sh
+fk
+sudo rm /etc/profile.d/env.sh
+clear
+ls
+google-chrome-stable
+echo $DISPLAY
+sudo pacman -S xorg-xwayland
+google-chrome-stable
+printenv
+v .zprofile
+source .config/zsh/.zshrc
+source .zprofile
+v .config/zsh/.zshrc
+printenv
+reboot
+sway
+google-chrome-stable
+clear
+v .zprofile
+sudo pacman -Rscun google-chrome
+paru -S brave-bin
+v .zprofile
+clear
+source .zprofile
+cd .config/sway
+v config
+cd
+v .zprofile
+source .zprofile
+brave
+cd .config
+ls
+rm google-chrome
+rm BraveSoftware
+cd
+git clone https://github.com/skillissu3e/1.git
+cp -r 1/BraveSoftware /home/dara/.config
+rm 1
+ls
+v .config/
+v .zprofile
+v .config/zsh/.zshrc
+v .config/sway/config
+where ghostty
+which ghostty
+/usr/bin/ghostty
+/usr/bin/brave
+v .config/zsh/.zshrc
+cd /usr/share/zsh/plugins
+ls
+cd .extra
+ls
+cd zsh
+ls
+tree
+mv ~/.extra/zsh/Aloxaf_fzf-tab .
+sudo mv ~/.extra/zsh/Aloxaf_fzf-tab .
+ls
+cd Aloxaf_fzf-tab
+ls
+cd ..
+ls
+mv Aloxaf_fzf-tab fzf-tab
+sudo mv Aloxaf_fzf-tab fzf-tab
+ls
+sudo pacman -Syyu
+clear
+cd .config
+ls
+rm .extra
+ls
+v .config/sway/config
+v .zprofile
+source .zprofile
+reboot
+sway
+v .config/sway/config
+v .zprofile
+source .zprofile
+sudo pacman -S i3status-rust
+cd .config
+ls
+v sway/config
+cd .config
+ls
+mkdir i3status-rust
+cd i3status-rust
+ls
+v config.toml
+which i3status-rs
+cd .config
+ls
+mv i3status-rust i3status-rs
+ls
+v config.toml
+cd
+sudo pacman -S ttf-font-awesome
+cd .config/
+v i3status-rs/config.toml
+ls
+cd ..
+l
+ls
+cd lo
+cd .local
+ls
+cd state
+ls
+cd ..
+cd share
+ls
+sudo pacman -S alsa-utils
+cat /proc/asound/card
+cat /proc/asound/cards
+clear
+ls
+v i3status-rs/config.toml
+sudo pacman -Rscun pulseaudio pulseaudio-alsa
+sudo pacman -S alsa-utils
+cat /proc/asound/cards
+alsamixer
+systemctl --user stop pulseaudio.service pulseaudio.socket
+systemctl --user disable pulseaudio.service pulseaudio.socket
+systemctl --user stop pipewire-pulse.service
+systemctl --user disable pipewire-pulse.service 
+systemctl --user stop pipewire-pulse.socket
+systemctl --user disable pipewire-pulse.socket
+systemctl --user stop pipewire-pulse.service
+systemctl --user disable pipewire-pulse.socket
+speaker-test -c 2  
+rm -rf ~/.config/pulse
+ls
+clear
+ls
+cd .local
+tree
+cd share
+ls
+cd ..
+cd state
+ls
+cd
+cd .config/sway
+v config
+v i3status-rs/config.toml
+alsamixer
+amixer 
+amixer
+amixer set Master toggle
+v .config/sway/config
+sudo pacman -S mandoc man
+clear
+v .config/sway/config
+cd /usr/share/backgrounds
+ls
+cd sway
+ls
+swaymsg -t get_outputs
+v .config/sway/config
+swaymsg -t get_outputs
+v .config/sway/config
+clear
+ls
+v .config/sway/config
+shutdown
+sway
+clear
+top
+sclear
+clear
+sudo pacman -S btop
+2
+shutdown
+sway
+v .config/sway/config
+clear
+ls
+ll
+v .zprofile
+v .config/zsh/.zshrc
+clear
+ls
+ls -la .pki
+rm .pki
+ll
+clear
+ls
+clear
+ls
+sudo pacman -Syyu
+l
+ll
+clear
+cd .config
+ls
+v sway
+v zsh/aliases.zsh
+source zsh/.zshrc
+sudo pacman -S mpv swayimg
+clear
+cd .config
+ls
+v .zprofil
+v .zprofile
+v .config/zsh/aliases.zsh
+configdir
+config
+confgi
+confif
+config
+ll
+swayimg
+ll
+clear
+zshrc
+cd .config
+ls
+ll
+cd .pki
+ls
+cd nssdb
+ls
+ll
+clear
+cd .pki
+ls
+cd
+v .zprofile
+rm .pki
+source .zprofile
+ll
+cd .pki
+ls
+cd
+v .zprofile
+cd .local/share
+ls
+cd ..
+ls
+cd state
+ls
+cd ..
+ls
+v .zprofile
+cd .local/share
+ls
+mkdir pki/nssdb
+cd
+rm 
+rm .pki
+ll
+cd .local/share/pki/nssdb
+ls
+ll
+clear
+ls
+ll
+cd .pki
+ls
+cd
+v .zprofile
+cd .local/share/pki/nssdb
+ll
+cd ..
+ls
+cd
+v .pki
+ls
+ll
+rm .pki
+cd .local/share/pki/nssdb
+ls
+ll
+cd ..
+ls
+rm nssdb
+cd
+echo $XDG_DATA_HOME
+reboot
+sway
+ll
+rm .pki
+cd .local
+ls
+cd share
+ls
+rm pki
+ll
+v mimeapps.list
+rm mimeapps.list
+shutdown
+sway
+config
+mkdir swayimg
+cd swayimg
+ls
+v config
+ll
+img VY6dy-N-bAI.jpg
+ll
+clear
+ls
+cd Downloads
+ls
+cd ..
+rm Downloads
+ls
+v config
+img VY6dy-N-bAI.jpg
+img 
+img VY6dy-N-bAI.jpg
+img i33ySDHWf58.jpg
+img 6OlkVb1QYcw.jpg
+img
+img *
+img -g
+img 6OlkVb1QYcw.jpg
+img -g
+v hahha
+img -g
+v config
+img -g
+v config
+img -g
+ls
+ll
+img -g
+img VY6dy-N-bAI.jpg 6OlkVb1QYcw.jpg
+swayimg --help
+img VY6dy-N-bAI.jpg
+clear
+ls
+rm 6OlkVb1QYcw.jpg VY6dy-N-bAI.jpg
+ls
+clear
+ls
+config
+ls
+rm gtk-3.0
+ls
+v dconf
+mkdir mpv
+cd mpv
+v /etc/mpv/
+v mpv.conf
+mpv --list-options
+v mpv.conf
+cd Downloads
+ls
+vid Go-4\]\ 20.\ Ѓ�ерелу�у�ионну�е\ Ѓ�Ѓ�.mp4
+c
+clear
+vid Go-4\]\ 20.\ Ѓ�ерелу�у�ионну�е\ Ѓ�Ѓ�.mp4
+cd
+mkdir script-opts scripts
+ls
+cd scripts
+ls
+mv ~/Downloads/modernz.lua .
+ls
+cd ..
+mkdir fonts
+cd fonts
+ls
+mv /home/dara/Downloads/fluent-system-icons.ttf /home/dara/Downloads/material-design-icons.ttf .
+ls
+cd ..
+cd script
+ls
+cd scripts
+ls
+mv ~/Downloads/thumbfast.lua .
+cd ..
+tree
+cd script-opts
+ls
+mv ~/Downloads/modernz.conf .
+ls
+cd Downloads
+vid Go-4\]\ 20.\ Ѓ�ерелу�у�ионну�е\ Ѓ�Ѓ�.mp4
+cd Downloads
+vid Go-4\]\ 20.\ Ѓ�ерелу�у�ионну�е\ Ѓ�Ѓ�.mp4
+cd ..
+ls
+v scripts/modernz.lua
+cd ..
+cd -
+v script-opts/modernz.conf
+cd Downloads
+vid Go-4\]\ 20.\ Ѓ�ерелу�у�ионну�е\ Ѓ�Ѓ�.mp4
+clear
+ls
+v scripts/modernz.lua
+ls
+v mpv.conf
+vid Go-4\]\ 20.\ Ѓ�ерелу�у�ионну�е\ Ѓ�Ѓ�.mp4
+v script-opts/modernz.conf
+vid Go-4\]\ 20.\ Ѓ�ерелу�у�ионну�е\ Ѓ�Ѓ�.mp4
+clear
+l
+cd Downloads
+mpv
+vid --start
+vid --fs Go-4\]\ 20.\ Ѓ�ерелу�у�ионну�е\ Ѓ�Ѓ�.mp4
+ls
+rm Downloads
+clear
+ls
+v .
+ls
+nvimcfg
+plugin
+ls
+cd
+aliases
+plugncfg
+plugincfg
+v lsp-config.lua
+v test.sh
+btop
+cd /var/log
+ls
+v pacman.log
+v .
+sudo pacman -S ImageMagick
+sudo pacman -S magick
+sudo pacman -S ripgrep fd
+v .
+sudo pacman -S imagemagick
+ll
+ls -la
+htop
+top
+config
+ls
+ls pulsse
+ls pulse
+rm pulse
+ls
+clear
+ls
+cd
+clear
+config
+ll
+cd /etc
+ls
+ll
+clear
+cd
+sudo pacman -Qtdq
+clear
+ls
+ll
+clear
+ll
+sudo pacman -S mandoc man
+sudo pacman -S man
+v .zprofile
+reboot
+sway
+config
+ls
+man dconf
+man 7 dconf
+echo $DCONF_PROFILE
+config
+v dconf
+tree
+clear
+cd
+man dconf
+man 7 dconf
+sudo pacman -S nautilus namo thunar dolphin PCManFM 
+sudo pacman -S nautilus nemo thunar dolphin
+nautilus
+nemo
+thunar
+dolphin
+sudo pacman -Rscun nemo thunar dolphin
+reboot
+
+sway
+condfig
+config
+ls
+rm dconf dolphinrc gtk-4.0 kde.org/ nemo nautilus/ pulse/ session/ Thunar user-dirs.dirs user-dirs.locale xfce4
+ls
+cd
+sudo pacman -Rscun nautilus
+ls
+tree
+rm Desktop Documents Downloads Music Pictures Public Templates Videos
+ls
+ll
+cd .cache
+ls
+rm google-chrome gtk-4.0/ ksycoca6_en_vtUU5Rj4p5_sOunzYqwz3GNICoc= mesa_shader_cache zsh_history
+ls
+ll
+rm tracker3
+ls
+cd ..
+ls
+cd .local/share
+ls
+rm baloo dolphin gvfs-metadata/ nautilus nemo/ recently-used.xbel Trash/ user-places.xbel user-places.xbel.bak user-places.xbel.tbcache 
+ls
+cd ..
+cd state
+ls
+ll
+rm dolphinstaterc
+ls
+cd ..
+ls
+cd ..
+ls
+cd .config
+ls
+cd ..
+sl
+ll
+clear
+ls
+sudo pacman -Sc
+clear
+ls
+v /etc/pacman.conf
+sudo pacman -Rns $(pacman -Qdtq)
+clear
+aliases
+ls
+tree
+nvimcfg
+tree
+cd ..
+tree
+paru -S sway-launcher-desktop
+aliases
+swaycfg
+/usr/bin/sway-launcher-desktop
+sway-launcher-desktop
+swaycfg
+sudo pacman -S awk gawk
+clear
+swaymsg -t get_tree | grep "app_id"
+swaycfg
+swaymsg -t get_tree | grep '"app_id":'
+swaycfg
+sway-launcher-desktop
+sudo pacman -Rscun autotiling
+sudo pacman -S autotiling-rs
+swaymsg -t get_tree | grep '"app_id":'
+autotiling-rs
+swaycfg
+sway
+sway
+sway-launcher-desktop
+reboot
+sway
+swaycfg
+swaymsg -t get_tree | grep '"app_id":'
+sway-launcher-desktop
+swaymsg -t get_tree | grep '"app_id":'
+sway-launcher-desktop --help
+sway-launcher-desktop -h
+sudo pacman -Rscun sway-launcher-desktop
+clear
+config
+ls
+rm gtk-3.0
+rm pulse
+ls
+ll
+sudo pacman -S anyrun
+paru -S anyrun
+paru -S anyrun-git
+anyrun
+config
+ls
+mkdir anyrun
+v config.ron
+anyrun
+cd anyrun
+v 
+v config.ron
+config
+anyrun
+clear
+swaycfg
+cd anyrun
+ls
+v config.ron
+v .config/anyrun/config.ron
+ls
+v .config/anyrun/shell.ron
+v .config/anyrun/applications.ron
+/usr/bin/ghostty -e btop
+v .config/anyrun/applications.ron
+v .config/anyrun/style.css
+v .config/anyrun/config.ron
+v .config/anyrun/shell.ron
+v .config/anyrun/applications.ron
+anyrun
+v .config/anyrun/config.ron
+v .config/anyrun/shell.ron
+cd .config/anyrun
+ls
+v applications.ron
+rm shell.ron
+ls
+rm style.css
+ls
+v applications.ron
+v config.ron
+v shell.ron
+reboot
+sway
+v .config/anyrun/shell.ron
+v .config/anyrun/config.ron
+v .config/anyrun/shell.ron
+cd .config
+ls
+v config.ron
+ls anyrun
+ls
+rm config.ron
+ls
+cd anyrun
+ls
+v config.ron
+v shell.ron
+v applications.ron
+cd ..
+rm anyrun
+ls
+cd
+sudo pacman -Rscun anyrun-git
+clear
+ls
+cd .local
+ls
+cd state
+ls
+cd ../share
+ls
+rm recently-used.xbel
+cd
+ls
+clear
+ls
+git clone https://github.com/kuokuo123/otter-launcher /tmp/otter-launcher\
+
+cd /tmp/otter-launcher\
+
+cargo build --release\
+
+sudo cp /tmp/otter-launcher/target/release/otter-launcher /usr/bin/\
+
+ls
+cd ..
+ls
+rm otter-launcher
+cd
+mkdir $HOME/.config/otter-launcher/
+mkdir $HOME/.config/otter-launcher/config.toml.
+cd .config/otter-launcher
+ls
+rm config.toml.
+v config.toml
+swaycfg
+cd
+otter-launcher
+sudo pacman -S xdg-open
+paru -S xdg-open
+sudo pacman -S xdg-utils
+otter-launcher
+cd .config/otter-launcher
+v config.toml
+sway -d >sway.log 2>&1
+otter-launcher
+sway
+sway
+sudo pacman -S xorg-xwayland
+ll
+v sway.log
+systemctl status seatd
+systemctl start seatd
+systemctl status seatd
+sudo pacman -S llvm-libs
+v /etc/rc_maps.cfg
+ls
+v sway.log
+systemctl enabled seatd
+systemctl enable seatd
+systemctl status dbus
+sudo pacman -S wayvnc
+otter-launcher
+reboot
+sway
+otter-launcher
+sway -d >sway1.log 2>&1
+sudo systemctl enable seatd
+reboot
+sway
+ls
+v sway1.log
+reboot
+dbus-run-session sway
+systemctl status dbus
+systemctl status seatd
+sudo systemctl disable seatd
+clear
+shutdown
+sway
+mkdir -p /home/dara/code/{api,cmd,internal,deploy,web,docs}
+cd /home/dara/code\
+
+ll
+config
+ls
+rm otter-launcher
+rm /usr/bin/otter-launcher
+sudo rm /usr/bin/otter-launcher
+ls
+cd go
+ls
+go mod init notification-platform
+go get github.com/labstack/echo/v4\
+
+go get google.golang.org/grpc\
+
+go get github.com/golang/protobuf/protoc-gen-go\
+
+go get google.golang.org/protobuf
+go get github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-grpc-gateway\
+
+go get github.com/segmentio/kafka-go\
+
+go get github.com/go-sql-driver/mysql\
+
+go get github.com/go-redis/redis/v8\
+
+sudo pacman -S protobuf
+protoc --version
+v /home/dara/code/api/notification.proto
+cd /home/dara/code\
+
+ду�
+дд
+ll
+rm *
+ll
+clear
+ls
+cd ..
+rm code
+ls
+rm sway1.log sway.log 
+ll
+clear
+ls
+mkdir -p /home/dara/code/notification-platform  \
+cd /home/dara/code/notification-platform  
+mkdir -p {auth,user,notification,delivery,queue,analytics,monitoring,api-gateway,frontend,infrastructure}  
+ll
+go mod init notification-platform  
+v /home/dara/code/notification-platform/auth/main.go
+v /home/dara/code/notification-platform/auth/handlers.go
+go get github.com/labstack/echo/v4 github.com/dgrijalva/jwt-go  
+cd /home/dara/code/notification-platform/auth  \
+
+go run main.go  
+v /home/dara/code/notification-platform/auth/main.go
+v /home/dara/code/notification-platform/auth/handlers.go
+go run main.go  
+ls
+cd code
+ls
+cd notification-platform
+go run auth/main.go
+v auth/main.go
+cd ...
+cd ..
+ls
+..
+ls
+rm code
+ls
+mkdir -p /home/dara/code/notification-platform/{auth-service,user-service,notification-service,delivery-service,queue-service,analytics-service,monitoring-service,frontend,api-gateway,k8s}\
+
+cd /home/dara/code/notification-platform\
+
+go mod init notification-platform
+go get github.com/labstack/echo/v4 \\
+        github.com/grpc-ecosystem/grpc-gateway/v2 \\
+        google.golang.org/protobuf/cmd/protoc-gen-go \\
+        google.golang.org/grpc/cmd/protoc-gen-go-grpc \\
+        github.com/go-redis/redis/v8 \\
+        github.com/jmoiron/sqlx \\
+        github.com/segmentio/kafka-go \\
+        github.com/prometheus/client_golang \\
+        github.com/sirupsen/logrus
+sudo pacman -S docker docker-compose kubectl helm protobuf
+v /home/dara/code/notification-platform/auth-service/proto/auth.proto
+mkdir /home/dara/code/notification-platform/auth-service/proto/
+v /home/dara/code/notification-platform/auth-service/proto/auth.proto
+protoc \\
+  --go_out=. \\
+  --go-grpc_out=. \\
+  auth-service/proto/auth.proto
+go install google.golang.org/protobuf/cmd/protoc-gen-go@latest\
+
+go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
+protoc-gen-go --version   # Ѓ�олжно ву�вести версиу�\
+
+protoc --version
+protoc \\
+  --go_out=. \\
+  --go-grpc_out=. \\
+  auth-service/proto/auth.proto
+go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+protoc \\
+  --go_out=. \\
+  --go-grpc_out=. \\
+  auth-service/proto/auth.proto
+cd code/notification-platform/notification-service
+ls
+ll
+cd ..
+ls
+protoc \\
+  --go_out=. \\
+  --go-grpc_out=. \\
+  auth-service/proto/auth.proto
+protoc-gen-go: program not found or is not executable\
+Please specify a program using absolute path or make sure the program is available in your PATH system variable\
+--go_out: protoc-gen-go: Plugin failed with status code 1.
+go install google.golang.org/protobuf/cmd/protoc-gen-go@latest\
+go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
+ls $(go env GOPATH)/bin | grep -E "protoc-gen-go|protoc-gen-go-grpc"
+protoc-gen-go --version\
+
+export PATH=$PATH:$(go env GOPATH)/bin
+protoc-gen-go --version\
+
+protoc-gen-go-grpc --version
+protoc \\
+  --go_out=. \\
+  --go-grpc_out=. \\
+  auth-service/proto/auth.proto
+v .zprofile
+source .zprofile
+ls
+cd ..
+rm code
+ls
+sudo pacman -Rscun go
+sudo pacman -S go
+reboot
+sway
+mkdir -p /home/dara/code/{auth-service,user-service,notification-service,delivery-service,queue-service,analytics-service,monitoring-service,api-gateway,frontend,shared,config}
+cd /home/dara/code/auth-service && go mod init auth-service\
+cd /home/dara/code/user-service && go mod init user-service\
+cd /home/dara/code/notification-service && go mod init notification-service\
+cd /home/dara/code/delivery-service && go mod init delivery-service\
+cd /home/dara/code/queue-service && go mod init queue-service\
+cd /home/dara/code/analytics-service && go mod init analytics-service\
+cd /home/dara/code/monitoring-service && go mod init monitoring-service\
+cd /home/dara/code/api-gateway && go mod init api-gateway
+v /home/dara/code/auth-service/main.go
+cd /home/dara/code/auth-service\
+go get github.com/labstack/echo/v4@latest\
+go get github.com/dgrijalva/jwt-go@latest
+cd /home/dara/code/auth-service\
+go run main.go
+curl -X POST http://localhost:8080/login -H "Content-Type: application/json" -d '{"username":"admin","password":"password"}'
+v /home/dara/code/user-service/main.go
+cd /home/dara/code/user-service\
+go get github.com/labstack/echo/v4@latest
+cd /home/dara/code/user-service\
+go run main.go
+cd /home/dara/code/user-service\
+
+go run main.go
+go get github.com/labstack/echo/v4/middleware@v4.13.3
+go run main.go
+v main.go
+go get github.com/labstack/echo-jwt/v4@latest
+v main.go
+go run main.go
+go clean -modcache\
+
+go mod tidy
+go run main.go
+v main.go
+go mod tidy
+go run main.go
+v main.go
+go get github.com/labstack/echo-jwt/v4@latest
+go run main.go
+v main.go
+cd /home/dara/code/user-service\
+go clean -modcache\
+go mod tidy
+go run main.go
+cd /home/dara/code/user-service\
+go get github.com/labstack/echo/v4@latest\
+go get github.com/labstack/echo-jwt/v4@latest\
+go mod tidy
+v main.go
+go run main.go
+cd /home/dara/code/user-service\
+go get github.com/labstack/echo/v4@latest\
+go get github.com/labstack/echo-jwt/v4@latest\
+go mod tidy
+v main.go
+go run main.go
+cd /home/dara/code/user-service\
+go get github.com/labstack/echo/v4@v4.13.3\
+go get github.com/labstack/echo-jwt/v4@v4.10.0\
+go mod tidy
+v main.go
+go run main.go
+curl -X POST http://localhost:8080/login -H "Content-Type: application/json" -d '{"username":"admin","password":"password"}'
+clear
+v main.go
+go run main.go
+curl -X POST http://localhost:8080/login -H "Content-Type: application/json" -d '{"username":"admin","password":"password"}'
+curl -X POST http://localhost:8081/login -H "Content-Type: application/json" -d '{"username":"admin","password":"password"}'
+cd ..
+ll
+cd auth-service
+go run main.go
+curl -X POST http://localhost:8080/login -H "Content-Type: application/json" -d '{"username":"admin","password":"password"}'
+clear
+curl -X POST http://localhost:8080/login -H "Content-Type: application/json" -d '{"username":"admin","password":"password"}'
+curl http://localhost:8081/users -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDY4NzYyMTAsInN1YiI6IjEifQ.DQgaJC_is9v_NEvZku_g4ah5Fwx8m4YX4gHJDbsINV4"
+curl http://localhost:8080/users -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDY4NzYyMTAsInN1YiI6IjEifQ.DQgaJC_is9v_NEvZku_g4ah5Fwx8m4YX4gHJDbsINV4"
+go run main.go
+curl -X POST http://localhost:8080/login -H "Content-Type: application/json" -d '{"username":"admin","password":"password"}'
+cd code/user-service
+ls
+go run main.go
+curl http://localhost:8080/users -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDY4NzYzMDUsInN1YiI6IjEifQ.EegmbU7mirPaVz0CVvXQo2IrZ5hp8KvvqXIXEQ_Wxqg"
+curl http://localhost:8081/users -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDY4NzYyMTAsInN1YiI6IjEifQ.DQgaJC_is9v_NEvZku_g4ah5Fwx8m4YX4gHJDbsINV4"
+curl http://localhost:8081/users -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDY4NzYzMDUsInN1YiI6IjEifQ.EegmbU7mirPaVz0CVvXQo2IrZ5hp8KvvqXIXEQ_Wxqg"
+curl -X POST http://localhost:8080/login -H "Content-Type: application/json" -d '{"username":"admin","password":"password"}'
+curl http://localhost:8081/users -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDY4NzY0NjIsInN1YiI6IjEifQ.WO9lwtqZ5YHdoONosWfuRDESpIeI-HZjII8hZfH6DoI"
+clear
+curl -X POST http://localhost:8080/login -H "Content-Type: application/json" -d '{"username":"admin","password":"password"}'
+curl http://localhost:8081/users -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDY4NzY1MDIsInN1YiI6IjEifQ.-IUzS0ZwatJ5x9r0oad9eFGsLN58Y05KrMpSqQxFlGE"
+curl -X POST http://localhost:8080/login -H "Content-Type: application/json" -d '{"username":"admin","password":"password"}'
+curl http://localhost:8081/users -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDY4NzY1NzksInN1YiI6IjEifQ.VZ_ZXzUH1Qminwo6_Jn7nLrxjBOszhe4C_hYsQqf44A"
+cd /home/dara/code/user-service\
+go get github.com/labstack/echo/v4@v4.13.3\
+go get github.com/labstack/echo-jwt/v4@v4.10.0\
+go mod tidy
+cd /home/dara/code/user-service\
+go get github.com/labstack/echo/v4@latest\
+go get github.com/labstack/echo-jwt/v4@latest\
+go mod tidy
+go run main.go
+curl -X POST http://localhost:8080/login -H "Content-Type: application/json" -d '{"username":"admin","password":"password"}'
+curl http://localhost:8081/users -H "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDY4NzY3ODgsInN1YiI6IjEifQ.DBCFRiSeighPcmCSQhGJTBiYFU0TComXsqu6bOUFN-k"
+ls
+v go.mod
+clear
+ls
+cd ..
+ll
+rm *
+mkdir -p /home/dara/code/{auth-service,user-service,notification-service,delivery-service,queue-service,analytics-service,monitoring-service,api-gateway,frontend,shared,config}
+cd /home/dara/code/auth-service && go mod init auth-service\
+cd /home/dara/code/user-service && go mod init user-service\
+cd /home/dara/code/notification-service && go mod init notification-service\
+cd /home/dara/code/delivery-service && go mod init delivery-service\
+cd /home/dara/code/queue-service && go mod init queue-service\
+cd /home/dara/code/analytics-service && go mod init analytics-service\
+cd /home/dara/code/monitoring-service && go mod init monitoring-service\
+cd /home/dara/code/api-gateway && go mod init api-gateway
+v /home/dara/code/auth-service/main.go
+cd /home/dara/code/auth-service\
+go get github.com/labstack/echo/v4@latest\
+go get github.com/dgrijalva/jwt-go@latest
+cd /home/dara/code/auth-service\
+go run main.go
+curl -X POST http://localhost:8080/login -H "Content-Type: application/json" -d '{"username":"admin","password":"password"}'
+v /home/dara/code/user-service/main.go
+cd /home/dara/code/user-service\
+go get github.com/labstack/echo/v4@latest
+v /home/dara/code/user-service/main.go
+cd /home/dara/code/user-service\
+go get github.com/labstack/echo/v4/middleware@latest
+go run main.go
+v /home/dara/code/user-service/main.go
+go run main.go
+cd /home/dara/code/user-service\
+go get github.com/labstack/echo/v4@latest\
+go get github.com/labstack/echo-jwt/v4@latest\
+go mod tidy
+go run main.go
+cd code/auth-service
+go run main.go
+clear
+go run main.go
+clear
+go run main.go
+clear
+curl -X POST http://localhost:8080/login -H "Content-Type: application/json" -d '{"username":"admin","password":"password"}'
+curl http://localhost:8081/users -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDY4NzcxODUsInN1YiI6IjEifQ.D5KDMVbiXPhUT9-CGhMJrWz5kcAr4NqATsSi5J4UgQs"
+curl http://localhost:8081/users -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+curl http://localhost:8081/users -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI\
+clear
+clear
+curl -X POST http://localhost:8080/login -H "Content-Type: application/json" -d '{"username":"admin","password":"password"}'
+clear
+curl -X POST http://localhost:8080/login -H "Content-Type: application/json" -d '{"username":"admin","password":"password"}'
+time
+clear
+curl -X POST http://localhost:8080/login -H "Content-Type: application/json" -d '{"username":"admin","password":"password"}'
+date
+curl http://localhost:8081/users -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDY4NzcyNDgsInN1YiI6IjEifQ.xJ9pg48vkKslXt1auC7ckeyDlWjBpLp3EM1X7J9xf1s"
+date
+v main.go
+sudo timedatectl set-ntp true
+v main.go
+cd code/user-service
+cd code/auth-service
+clear
+go run main.go
+curl -X POST http://localhost:8080/login -H "Content-Type: application/json" -d '{"username":"admin","password":"password"}'
+curl http://localhost:8081/users -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDY4Nzc0MTQsInN1YiI6IjEifQ.YlOK6OQTxNoJU5KVZ0c1BtxRkYjfv5aq9SyO_z5P_hk"
+clear
+ls
+curl -X POST http://localhost:8080/login -H "Content-Type: application/json" -d '{"username":"admin","password":"password"}'
+rm code
+ls
+mkdir -p /home/dara/code/{api,cmd,internal,deploy,web,docs}
+cd /home/dara/code\
+go mod init notification-platform
+# Установка Go-библиотек\
+go get github.com/labstack/echo/v4\
+go get google.golang.org/grpc\
+go get github.com/golang/protobuf/protoc-gen-go\
+go get github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-grpc-gateway\
+go get github.com/segmentio/kafka-go\
+go get github.com/go-sql-driver/mysql\
+go get github.com/go-redis/redis/v8\
+\
+# Установка Protobuf-компилу�тора (protoc) длу� Arch Linux\
+sudo pacman -S protobuf
+go get google.golang.org/protobuf
+protoc --version  # Ѓ�олжно бу�ту�: libprotoc 3.x или ву�у�е
+v /home/dara/code/api/notification.proto
+cd /home/dara/code\
+
+\
+protoc --go_out=. --go-grpc_out=. api/notification.proto
+cd /home/dara/code\
+protoc --go_out=. --go-grpc_out=. api/notification.proto
+v /home/dara/code/api/notification.proto
+cd /home/dara/code\
+protoc --go_out=. --go-grpc_out=. api/notification.proto
+v /home/dara/code/internal/notification/service.go
+mkdir /home/dara/code/internal/notification/
+v /home/dara/code/internal/notification/service.go
+mkdir /home/dara/code/cmd/notification-service/
+v /home/dara/code/cmd/notification-service/main.go
+cd /home/dara/code\
+go run cmd/notification-service/main.go
+v /home/dara/code/go.mod
+export GOPROXY=""
+cd /home/dara/code\
+go run cmd/notification-service/main.go
+cd /home/dara/code\
+go mod edit -replace notification-platform=.
+cd /home/dara/code\
+go run cmd/notification-service/main.go
+go mod tidy
+go run main.go
+cd /home/dara/code\
+go run cmd/notification-service/main.go
+clear
+ls
+cd ..
+rm code
+mkdir -p /home/dara/code/notification-platform\
+cd /home/dara/code/notification-platform\
+go mod init notification-platform
+mkdir -p \\
+    /home/dara/code/notification-platform/{api,proto,gateway,auth,user,notification,delivery,analytics,monitoring,frontend,k8s,docker}
+v /home/dara/code/notification-platform/go.mod
+go get -u all
+go get github.com/pingcap/failpoint@latest
+v /home/dara/code/notification-platform/go.mod
+clear
+ls
+go get     github.com/labstack/echo/v4 v4.10.2\
+
+go mod tidy
+clear
+go install github.com/labstack/echo/v4@latest \\
+  google.golang.org/grpc@latest \\
+  github.com/grpc-ecosystem/grpc-gateway/v2@latest \\
+  github.com/go-sql-driver/mysql@latest \\
+  github.com/go-redis/redis/v8@latest \\
+  github.com/segmentio/kafka-go/v2@latest \\
+  github.com/prometheus/client_golang@latest \\
+  github.com/pingcap/failpoint@latest
+go get install github.com/labstack/echo/v4@latest \\
+  google.golang.org/grpc@latest \\
+  github.com/grpc-ecosystem/grpc-gateway/v2@latest \\
+  github.com/go-sql-driver/mysql@latest \\
+  github.com/go-redis/redis/v8@latest \\
+  github.com/segmentio/kafka-go/v2@latest \\
+  github.com/prometheus/client_golang@latest \\
+  github.com/pingcap/failpoint@latest
+go get github.com/labstack/echo/v4@latest \\
+  google.golang.org/grpc@latest \\
+  github.com/grpc-ecosystem/grpc-gateway/v2@latest \\
+  github.com/go-sql-driver/mysql@latest \\
+  github.com/go-redis/redis/v8@latest \\
+  github.com/segmentio/kafka-go/v2@latest \\
+  github.com/prometheus/client_golang@latest \\
+  github.com/pingcap/failpoint@latest
+v go.mod
+go get github.com/labstack/echo/v4@latest \\
+  google.golang.org/grpc@latest \\
+  github.com/grpc-ecosystem/grpc-gateway/v2@latest \\
+  github.com/go-sql-driver/mysql@latest \\
+  github.com/go-redis/redis/v8@latest \\
+  github.com/segmentio/kafka-go/v2@latest \\
+  github.com/prometheus/client_golang@latest \\
+  github.com/pingcap/failpoint@latest
+go get github.com/labstack/echo/v4@latest \\
+  google.golang.org/grpc@latest \\
+  github.com/grpc-ecosystem/grpc-gateway/v2@latest \\
+  github.com/go-sql-driver/mysql@latest \\
+  github.com/go-redis/redis/v8@latest \\
+  github.com/segmentio/kafka-go@latest \\
+  github.com/prometheus/client_golang@latest \\
+  github.com/pingcap/failpoint@latest
+ll
+mkdir -p /home/dara/code/notification-platform/auth/{handler,model,service,utils}
+v /home/dara/code/notification-platform/auth/main.go
+v /home/dara/code/notification-platform/auth/model/user.go
+v /home/dara/code/notification-platform/auth/service/jwt.go
+v /home/dara/code/notification-platform/auth/service/auth.go
+v /home/dara/code/notification-platform/auth/handler/auth.go
+cd /home/dara/code/notification-platform/auth\
+
+go run main.go
+go get github.com/jmoiron/sqlx@latest
+cd ..
+v auth/service/jwt.go
+go get github.com/golang-jwt/jwt/v4@latest
+v /home/dara/code/notification-platform/auth/utils/hash.go
+go mod tidy  # Ѓ�бновите зависимости\
+
+go run main.go
+cd /home/dara/code/notification-platform/auth\
+
+go run main.go
+v /home/dara/code/notification-platform/auth/service/auth.go
+go run main.go
+clear
+ls
+rm code
+ls
+mkdir -p /home/dara/code/notification-platform/{services,frontend,k8s,docker,config,shared,docs}
+cd /home/dara/code/notification-platform\
+go mod init notification-platform
+v /home/dara/code/notification-platform/services/api-gateway/main.go
+go get github.com/labstack/echo/v4@latest
+ls
+mkdir /home/dara/code/notification-platform/services/api-gateway/
+v /home/dara/code/notification-platform/services/api-gateway/main.go
+go get github.com/labstack/echo/v4/middleware@latest
+cd /home/dara/code/notification-platform\
+go run services/api-gateway/main.go
+go get github.com/golang-jwt/jwt/v5\
+go get github.com/segmentio/kafka-go
+curl http://localhost:8080
+go run services/api-gateway/main.go
+curl http://localhost:8080
+clear
+ls
+v /home/dara/code/notification-platform/services/api-gateway/main.go
+clear
+ssh
+sudo pacman -S ssh
+mkdir -p /home/dara/code/notification-platform/services/user-service\
+touch /home/dara/code/notification-platform/services/user-service/{main.go,handlers.go,models.go,utils.go}
+v /home/dara/code/notification-platform/services/user-service/models.go
+v /home/dara/code/notification-platform/services/user-service/utils.go
+v /home/dara/code/notification-platform/services/user-service/handlers.go
+v /home/dara/code/notification-platform/services/user-service/main.go
+cd /home/dara/code/notification-platform\
+go get github.com/golang-jwt/jwt/v5\
+go get github.com/labstack/echo/v4
+cd /home/dara/code/notification-platform\
+
+go run services/user-service/main.go
+cd code/notification-platform/services/user-service/
+v main.go
+go get github.com/labstack/echo/v4
+go get github.com/golang-jwt/jwt/v5
+v main.go
+v /home/dara/code/notification-platform/services/user-service/main.go
+v /home/dara/code/notification-platform/services/user-service/handlers.go
+go run services/user-service/main.go
+v /home/dara/code/notification-platform/services/user-service/main.go
+v /home/dara/code/notification-platform/services/user-service/handlers.go
+v /home/dara/code/notification-platform/services/user-service/main.go
+tree
+go run services/user-service/*.go
+curl -X POST http://localhost:8081/register
+v /home/dara/code/notification-platform/services/user-service/handlers.go
+go get golang.org/x/crypto/bcrypt
+go run services/user-service/*.go
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}'
+v /home/dara/code/notification-platform/services/user-service/handlers.go
+v /home/dara/code/notification-platform/services/user-service/main.go
+v services/api-gateway/main.go
+cd /home/dara/code/notification-platform\
+
+go run services/user-service/*.go
+v /home/dara/code/notification-platform/services/user-service/main.go
+v /home/dara/code/notification-platform/services/user-service/handlers.go
+mkdir /home/dara/code/notification-platform/services/user-service/models/
+v /home/dara/code/notification-platform/services/user-service/models/models.go
+v /home/dara/code/notification-platform/services/user-service/utils/jwt.go
+mkdir /home/dara/code/notification-platform/services/user-service/utils/
+v /home/dara/code/notification-platform/services/user-service/utils/jwt.go
+v /home/dara/code/notification-platform/services/user-service/handlers/handlers.go
+cd services/user-service
+ls
+mkdir handlers
+v /home/dara/code/notification-platform/services/user-service/handlers/handlers.go
+v main.go
+rm handlers.go
+cd ..
+go run services/user-service/*.go
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}'
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"okura@MSCexample.com","password":"password123"}'
+v .zprofile
+v /home/dara/code/notification-platform/services/user-service/models/models.go
+v /home/dara/code/notification-platform/services/user-service/utils/jwt.go
+v services/api-gateway/main.go
+v services/user-service/main.go
+go run services/user-service/*.go
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"max@simple.com","password":"password123"}'
+curl -X GET http://localhost:8080/secure \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1heEBzaW1wbGUuY29tIiwiZXhwIjoxNzQ2OTc4MjkzLCJyb2xlIjoiY2xpZW50In0.97CB7zGiuS1MThSMrcnMY3_UXvTszCWoqbWFaHD4gIQ"
+curl -X GET http://localhost:808/secure \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1heEBzaW1wbGUuY29tIiwiZXhwIjoxNzQ2OTc4MjkzLCJyb2xlIjoiY2xpZW50In0.97CB7zGiuS1MThSMrcnMY3_UXvTszCWoqbWFaHD4gIQ"
+curl -X GET http://localhost:8081/secure \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1heEBzaW1wbGUuY29tIiwiZXhwIjoxNzQ2OTc4MjkzLCJyb2xlIjoiY2xpZW50In0.97CB7zGiuS1MThSMrcnMY3_UXvTszCWoqbWFaHD4gIQ"
+go run services/user-service/*.go
+cd code/notification-platform
+go run services/api-gateway/main.go
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"max@simple.com","password":"password123"}'
+curl -X GET http://localhost:8080/secure \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1heEBzaW1wbGUuY29tIiwiZXhwIjoxNzQ2OTc4NjU0LCJyb2xlIjoiY2xpZW50In0.a504UWqDafUBD_yQKr2WA567qvcLD_kcuLhxGV-hZLw"
+docker run -d --name zookeeper -p 2181:2181 -p 2888:2888 -p 3888:3888 bitnami/zookeeper\
+
+systemctl start docker
+docker run -d --name zookeeper -p 2181:2181 -p 2888:2888 -p 3888:3888 bitnami/zookeeper\
+
+systemctl start docker.sock
+sudo usermod -aG docker $USER
+ls -l /var/run/docker.sock
+docker run -d --name zookeeper -p 2181:2181 -p 2888:2888 -p 3888:3888 bitnami/zookeeper\
+
+reboot
+sway
+cd code/notification-platform
+go run services/user-service/*.go
+cd code/notification-platform
+go run services/api-gateway/main.go
+docker run -d --name zookeeper -p 2181:2181 -p 2888:2888 -p 3888:3888 bitnami/zookeeper\
+
+sudo docker run -d --name zookeeper -p 2181:2181 -p 2888:2888 -p 3888:3888 bitnami/zookeeper\
+
+systemctl start docker
+docker run -d --name zookeeper -p 2181:2181 -p 2888:2888 -p 3888:3888 bitnami/zookeeper\
+
+docker run -d --name kafka -p 9092:9092 \\
+  --link zookeeper \\
+  -e KAFKA_CFG_PROCESS_ROLES=broker \\
+  -e KAFKA_CFG_CONTROLLER_LISTENER_NAMES=CONTROLLER \\
+  -e KAFKA_CFG_LISTENERS=PLAINTEXT://:9092 \\
+  -e KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092 \\
+  bitnami/kafka
+# Ѓ�апу�ск Zookeeper и Kafka\
+docker run -d --name zookeeper -p 2181:2181 -p 2888:2888 -p 3888:3888 bitnami/zookeeper\
+docker run -d --name kafka -p 9092:9092 \\
+  --link zookeeper \\
+  -e KAFKA_CFG_PROCESS_ROLES=broker \\
+  -e KAFKA_CFG_CONTROLLER_LISTENER_NAMES=CONTROLLER \\
+  -e KAFKA_CFG_LISTENERS=PLAINTEXT://:9092 \\
+  -e KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092 \\
+  bitnami/kafka
+mkdir /home/dara/code/notification-platform/services/queue-service/producer/
+v /home/dara/code/notification-platform/services/queue-service/producer/producer.go
+mkdir /home/dara/code/notification-platform/services/queue-service/consumer/
+v /home/dara/code/notification-platform/services/queue-service/consumer/consumer.go
+cd code/notification-platform
+go get github.com/segmentio/kafka-go
+go run services/queue-service/producer/producer.go
+ls
+docker ls
+docker --help
+docker ps
+clear
+docker run -d --name zookeeper -p 2181:2181 -p 2888:2888 -p 3888:3888 bitnami/zookeeper\
+docker run -d --name kafka -p 9092:9092 \\
+  --link zookeeper \\
+  -e KAFKA_CFG_PROCESS_ROLES=broker \\
+  -e KAFKA_CFG_CONTROLLER_LISTENER_NAMES=CONTROLLER \\
+  -e KAFKA_CFG_LISTENERS=PLAINTEXT://:9092 \\
+  -e KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092 \\
+  bitnami/kafka
+docker stop all
+docker ps
+clear
+ls
+docker images
+docker run -d --name zookeeper -p 2181:2181 -p 2888:2888 -p 3888:3888 bitnami/zookeeper\
+docker run -d --name kafka -p 9092:9092 \\
+  --link zookeeper \\
+  -e KAFKA_CFG_PROCESS_ROLES=broker \\
+  -e KAFKA_CFG_CONTROLLER_LISTENER_NAMES=CONTROLLER \\
+  -e KAFKA_CFG_LISTENERS=PLAINTEXT://:9092 \\
+  -e KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092 \\
+  bitnami/kafka
+docker rm kafka kafka/zookeeper zookeeper
+docker ps
+clear
+ls
+clear
+# Ѓ�апу�ск Zookeeper и Kafka\
+docker run -d --name zookeeper -p 2181:2181 -p 2888:2888 -p 3888:3888 bitnami/zookeeper\
+docker run -d --name kafka -p 9092:9092 \\
+  --link zookeeper \\
+  -e KAFKA_CFG_PROCESS_ROLES=broker \\
+  -e KAFKA_CFG_CONTROLLER_LISTENER_NAMES=CONTROLLER \\
+  -e KAFKA_CFG_LISTENERS=PLAINTEXT://:9092 \\
+  -e KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092 \\
+  bitnami/kafka
+go run services/queue-service/producer/producer.go
+cd code/notification-platform
+go run services/queue-service/producer/producer.go
+docker ps
+docker start kafka
+docker run -d --name zookeeper -p 2181:2181 zookeeper
+docker rm zookeeper kafka/zookeeper kafka
+docker run -d --name zookeeper -p 2181:2181 zookeeper
+docker run -d --name kafka -p 9092:9092 \\
+  --link zookeeper:zookeeper \\
+  -e KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181 \\
+  bitnami/kafka
+go run services/queue-service/producer/producer.go
+cd code/notification-platform
+go run services/queue-service/producer/producer.go
+docker ps
+docker run -d --name kafka -p 9092:9092 \\
+  --link zookeeper:zookeeper \\
+  -e KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181 \\
+  bitnami/kafka
+clear
+ls
+docker stop kafka/zookeeper zookeeper
+docker rm kafka/zookeeper kafka
+docker rmi bitnami/kafka:latest bitnami/zookeeper:latest zookeeper:latest
+ls
+docker ps
+docker ps -a
+docker images
+ls
+v /home/dara/code/notification-platform/docker-compose.yml
+docker-compose up -d
+docker ps
+go run services/queue-service/producer/producer.go
+v docker-compose.yml
+docker-compose up -d
+docker ps
+go run services/queue-service/producer/producer.go
+docker ps
+docker-compose up -d
+cd code/notification-platform
+docker-compose up -d
+docker ps
+go run services/queue-service/producer/producer.go
+docker logs kafka
+v docker-compose.yml
+docker-compose down
+docker-compose up -d
+go run services/queue-service/producer/producer.go
+telnet localhost 9092
+cd
+sudo pacman -S telnet
+sudo pacman -S netstat
+cd code/notification-platform
+v docker-compose.yml
+go run services/api-gateway/main.go
+reboot
+sway
+netstat
+sudo pacman -S net-tools
+clear
+cd code/notification-platform
+go run services/api-gateway/main.go
+go run services/user-service/*.go
+clear
+cd code/notification-platform
+v docker-compose.yml
+docker-compose up -d
+systemctl start docker
+clear
+docker-compose up -d
+docker ps
+netstat -tuln | grep -E '2181|9092'
+v docker-compose.yml
+docker-compose down
+docker-compose up -d
+docker ps
+netstat -tuln | grep -E '2181|9092'
+nc -zv localhost 9092
+sudo pacman -S inetutils
+telnet localhost 9092\
+
+v docker-compose.yml
+docker-compose up -d
+telnet 172.20.0.2 9092
+clear
+v docker-compose.yml
+docker-compose down
+docker-compose up -d
+docker ps
+telnet localhost 9092\
+
+v docker-compose.yml
+docker-compose down
+docker-compose up -d
+telnet localhost 9092\
+
+telnetd localhost 9092\
+
+v docker-compose.yml
+docker-compose down
+docker-compose up -d
+netstat -tuln | grep -E '2181|9093'
+telnet localhost 9093\
+
+go get github.com/streadway/amqp
+v docker-compose.yml
+v /home/dara/code/notification-platform/services/queue-service/producer/producer.go
+v /home/dara/code/notification-platform/services/queue-service/consumer/consumer.go
+docker-compose down
+cd code/notification-platform
+docker-compose down
+reboot
+sway
+cd code/notification-platform
+go run services/user-service/*.go
+cd code/notification-platform
+go run services/api-gateway/main.go
+clear
+cd code/notification-platform
+clear
+cd code/notification-platform
+clear
+systemctl start docker
+clear
+ls
+clear
+ls
+cd code/notification-platform
+docker-compose up -d
+go run services/queue-service/producer/producer.go
+go run services/queue-service/consumer/consumer.go
+# Ѓ�лу� Email\
+go get gopkg.in/gomail.v2\
+\
+# Ѓ�лу� Telegram\
+go get github.com/go-telegram-bot-api/telegram-bot-api/v5\
+\
+# Ѓ�лу� SMS (Twilio)\
+go get github.com/kevinburke/twilio-go
+mkdir /home/dara/code/notification-platform/services/delivery-service/
+v /home/dara/code/notification-platform/services/delivery-service/main.go
+go run services/delivery-service/main.go
+cd code/notification-platform
+go run services/delivery-service/main.go
+v /home/dara/code/notification-platform/services/delivery-service/main.go
+go run services/delivery-service/main.go
+v /home/dara/code/notification-platform/services/delivery-service/main.go
+go run services/delivery-service/main.go
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'\
+
+go run services/user-service/*.go
+go run services/api-gateway/main.go
+go run services/queue-service/producer/producer.go
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'\
+
+clear
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}"
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+go run services/queue-service/producer/producer.go
+go run services/queue-service/consumer/consumer.go
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+go run services/queue-service/producer/producer.go
+go run services/queue-service/consumer/consumer.go
+go run services/queue-service/producer/producer.go
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}
+go run services/api-gateway/main.go
+go run services/queue-service/producer/producer.go
+go run services/queue-service/consumer/consumer.go
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+go run services/queue-service/producer/producer.go
+go run services/delivery-service/main.go
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+clear
+v /home/dara/code/notification-platform/services/delivery-service/main.go
+top
+v /home/dara/code/notification-platform/services/delivery-service/main.go
+go get github.com/kevinburke/twilio-go@latest
+v /home/dara/code/notification-platform/services/delivery-service/main.go
+# Ѓ�лу� Email\
+go get gopkg.in/gomail.v2\
+\
+# Ѓ�лу� Telegram\
+go get github.com/go-telegram-bot-api/telegram-bot-api/v5\
+\
+# Ѓ�лу� Plivo\
+go get github.com/plivo/plivo-go/v5
+v /home/dara/code/notification-platform/services/delivery-service/main.go
+go get github.com/plivo/plivo-go@latest
+v /home/dara/code/notification-platform/services/delivery-service/main.go
+clear
+ls
+go mod tidy  # Ѓ�бновите зависимости\
+
+v /home/dara/code/notification-platform/services/delivery-service/main.go
+go run services/delivery-service/main.go
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+go run services/user-service/*.go
+go run services/api-gateway/main.go
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+cd code/notification-platform
+docker-compose up -d
+docker ps
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+curl -X POST http://localhost:8081/register -H "Content-Type: application/json" -d '{"email":"test@example.com","password":"password123"}'
+curl -X GET http://localhost:8080/secure -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDcxNDIxMTcsInJvbGUiOiJjbGllbnQifQ.8j45VwZyQh5p9RlxYMdFz4DGaphm0gRsdFf3DpP8Ewo"
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+cd code/notification-platform
+v /home/dara/code/notification-platform/services/delivery-service/main.go
+sudo pacman -Syyu
+reboot
+sway
+cd code/notification-platform
+v /home/dara/code/notification-platform/services/delivery-service/main.go
+go mod edit -droprequire github.com/plivo*
+v services/user-service/main.go
+v services/delivery-service/main.go
+v services/api-gateway/main.go
+go mod tidy  # Ѓ�бновите зависимости\
+
+clear
+systemctl start docker
+systemctl status docker 
+cd code/notification-platform
+systemctl status docker 
+docker-compose up -d
+clear
+docker ps
+clear
+docker logs rabbitmq
+clear
+cd code/notification-platform
+go run services/delivery-service/main.go
+docker logs rabbitmq
+cd /home/dara/code/notification-platform/services/user-service
+go run *.go
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}'
+cd /home/dara/code/notification-platform/services/api-gateway
+go run main.go
+curl http://localhost:8080
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}'
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc0ODA0NjEsInJvbGUiOiJjbGllbnQifQ.pkUWmE54skPXvu2qRVIRCK6LITRLN7qaKv0k_YYR34A" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+telnet localhost 5672
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc0ODA0NjEsInJvbGUiOiJjbGllbnQifQ.pkUWmE54skPXvu2qRVIRCK6LITRLN7qaKv0k_YYR34A" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc0ODA0NjEsInJvbGUiOiJjbGllbnQifQ.pkUWmE54skPXvu2qRVIRCK6LITRLN7qaKv0k_YYR34A" \\
+  -d '{"channel":"telegram","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"123456789"}'
+cd code/notification-platform
+tree
+mkdir logs
+v /home/dara/code/notification-platform/start.sh
+chmod +x /home/dara/code/notification-platform/start.sh
+./start.sh
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}'
+curl http://localhost:8080
+cd code/notification-platform
+curl http://localhost:8080
+v /home/dara/code/notification-platform/start.sh
+v services/api-gateway/main.go
+curl http://localhost:8080/secure
+./start.sh
+ls
+clear
+btop
+ps aux | grep api-gateway
+netstat -tuln | grep 8080
+v /home/dara/code/notification-platform/services/api-gateway/main.go
+sudo pacman -S wl-clipboard
+v /home/dara/code/notification-platform/services/api-gateway/main.go
+curl http://localhost:8080
+reboot
+sway
+cd code/notification-platform
+./start.sh
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}'
+curl http://localhost:8080
+tail -f /home/dara/code/notification-platform/logs/delivery.log
+cd code/notification-platform
+v /home/dara/code/notification-platform/services/delivery-service/main.go
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc0ODE1MzksInJvbGUiOiJjbGllbnQifQ.j1nLTXwwrIZqBPqqzbOgtzVYVQucz2F8ATCAu8Byf3A" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+v logs/delivery.log
+docker logs rabbitmq
+docker exec -it rabbitmq netstat -tuln | grep 5672
+# stop.sh\
+docker-compose down\
+pkill -f user-service\
+pkill -f api-gateway\
+pkill -f delivery-service
+clear
+./start.sh
+btop
+reboot
+sway
+systemctl start docker
+clear
+cd code/notification-platform
+docker-compose up -d
+clear
+docker ps
+go run services/user-service/*.go
+cd code/notification-platform
+go run services/api-gateway/main.go
+cd code/notification-platform
+v start.sh
+go run services/delivery-service/main.go > /home/dara/code/notification-platform/logs/delivery.log 2>&1 &\
+
+cd code/notification-platform
+v start.sh
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}' || { echo "Ѓ�у�ибка регистрау�ии"; exit 1; }\
+
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc0ODI0NzgsInJvbGUiOiJjbGllbnQifQ.hAqL19Q27HoeugndfnJ9sif5MWIy-odSpeCY56jRIWQ" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"re.kitaev@gmail.com"}' || { echo "Ѓ�у�ибка отправки Email"; exit 1; }\
+
+cd code/notification-platform
+cd logs
+ls
+v delivery.log
+docker logs rabbitmq
+clear
+ls
+v start.sh
+cd code/notification-platform
+v start.sh
+docker ps
+docker logs rabbitmq
+cd code/notification-platform
+v start.sh
+go run *.go > /home/dara/code/notification-platform/logs/user-service.log 2>&1 &\
+
+go run main.go > /home/dara/code/notification-platform/logs/api-gateway.log 2>&1 &\
+
+go run main.go > /home/dara/code/notification-platform/logs/delivery.log 2>&1 &\
+
+cd code/notification-platform
+cd logs
+ls
+v api-gateway.log
+v user-service.log
+v delivery.log
+reboot
+sway
+cd code/notification-platform
+tree
+cd services/user-service
+ls
+rm models.go utils.go
+ls
+tree
+cd ..
+..
+v docker-compose.yml
+systemctl start docker
+docker ps                     # Ѓ�роверка контейнера\
+
+docker ps
+cd code/notification-platform
+v docker-compose.yml
+systemctl start docker
+docker ps
+reboot
+sway
+sudo systemctl start docker
+docker ps
+top
+docker ps
+clear
+ls
+docker-compose up -d
+cd code/notification-platform
+docker-compose up -d
+docker ps
+clear
+go run *.go > /home/dara/code/notification-platform/logs/user-service.log 2>&1 &\
+
+go run main.go > /home/dara/code/notification-platform/logs/api-gateway.log 2>&1 &\
+
+top
+pkill 2348
+pkill 2385
+top
+clear
+cd code/notification-platform
+cd services/user-service
+go run main.go > /home/dara/code/notification-platform/logs/user-service.log 2>&1 &\
+
+cd ..
+cd api-gateway
+go run main.go > /home/dara/code/notification-platform/logs/api-gateway.log 2>&1 &\
+
+cd ..
+cd delivery-service
+go run main.go > /home/dara/code/notification-platform/logs/delivery.log 2>&1 &\
+
+v /home/dara/code/notification-platform/logs/api-gateway.log
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"re.kitaev@gmail.com","password":"password123"}' || { echo "Ѓ�у�ибка регистрау�ии"; exit 1; }\
+
+cd ..
+clear
+ls
+cd ..
+ls
+v start.sh
+ll
+v start.sh
+chmod +x /home/dara/code/notification-platform/start.sh
+reboot
+sway
+cd code/notification-platform
+./start.sh
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"re.kitaev@gmail.com","password":"password123"}' || { echo "Ѓ�у�ибка регистрау�ии"; exit 1; }\
+
+reboot
+sway
+cd code/notification-platform
+cd logs
+ls
+nvim delivery.log
+cd ..
+cd services/user-service
+ls
+v main.go
+cd ..
+v services/delivery-service/main.go
+v services/api-gateway/main.go
+clear
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}'
+./start.sh
+v logs/delivery.log
+cd services/user-service
+ls
+v main.go
+v logs/delivery.log
+cd ..
+v logs/delivery.log
+go get github.com/golang-jwt/jwt/v5
+v services/api-gateway/main.go
+v services/user-service/main.go
+cd services/user-service
+ls
+v main.go
+cd ..
+clear
+top
+reboot
+sway
+cd code/notification-platform
+./start.sh
+cd logs
+ls
+v api-gateway.log
+docker ps
+docker logs rabbitmq
+telnet localhost 5672\
+
+netstat -tuln | grep 5672
+docker-compose down\
+
+pkill -f user-service\
+pkill -f api-gateway\
+pkill -f delivery-service
+cd ..
+v start.sh
+cd code/notification-platform
+./start.sh
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}'
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc0OTUwMzIsInJvbGUiOiJjbGllbnQifQ._W4VGa6awkUAzydOVVhgM41YB1IzcrQJxh5GHG3q_-o" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}'
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc0OTUwMzIsInJvbGUiOiJjbGllbnQifQ._W4VGa6awkUAzydOVVhgM41YB1IzcrQJxh5GHG3q_-o
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}'
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc0OTUxMjcsInJvbGUiOiJjbGllbnQifQ.tOpSIhzqI623UPWXKh14I9QoLQGBAAeJ3FnEVrOVtok" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+v services/user-service/utils/jwt.go
+v services/api-gateway/main.go
+docker-compose down\
+
+pkill -f user-service\
+pkill -f api-gateway\
+pkill -f delivery-service
+clear
+./start.sh
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}'
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc0OTUzODQsInJvbGUiOiJjbGllbnQifQ.hXGPPmBUWH9qKrY2YIxT6XeSCVlvlxr6sU75iEGXwXU" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"aboba@example.com","password":"password123"}'
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFib2JhQGV4YW1wbGUuY29tIiwiZXhwIjoxNzQ3NDk1NDMxLCJyb2xlIjoiY2xpZW50In0.ELw9EpWBTTaNOCVbO_avAI-Qbqo2s-qAXCrZ_cIHzcQ" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+clear
+v logs/delivery.log
+clear
+ls
+docker logs rabbitmq
+v logs/delivery.log
+reboot
+sway
+./start.sh
+cd code/notification-platform
+./start.sh
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"max@kitaev.com","password":"password123"}'
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1heEBraXRhZXYuY29tIiwiZXhwIjoxNzQ3NDk3NjgyLCJyb2xlIjoiY2xpZW50In0.Q4vhJKO6tT2_8uMWrzB-xhrBWBpzzrDO3ckbSBEIbdY" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1heEBraXRhZXYuY29tIiwiZXhwIjoxNzQ3NDk3NjgyLCJyb2xlIjoiY2xpZW50In0.Q4vhJKO6tT2_8uMWrzB-xhrBWBpzzrDO3ckbSBEIbdY" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"max@kitaev.com"}'
+clear
+ls
+v services/delivery-service/main.go
+rm docker docs frontend k8s shared
+ll
+cd services/user-service
+ls
+v main.go
+cd ..
+ls
+v api-gateway/main.go
+cd ..
+ls
+v services/delivery-service
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}'
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc0OTgxNjIsInJvbGUiOiJjbGllbnQifQ.wbwwpSRhgJbVHzHWlrGlQDzEJjvetLo2p-T2QsHNw3U" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+v services/delivery-service/main.go
+v services/api-gateway/main.go
+v logs/delivery.log
+docker logs rabbitmq
+clear
+cd logs
+ls
+cd ..
+ls
+v config
+ls
+ll
+rm config
+ls
+cd services
+ls
+v delivery-service
+v queue-service
+clear
+ls
+cd ..
+ls
+clear
+ls
+reboot
+sway
+cd code/notification-platform
+./start.sh
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}'
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc0OTg2MTAsInJvbGUiOiJjbGllbnQifQ.kXZYQU6EOpyXCsBvIR3C2zLDA8AfbhO8Qquh9G8HIIc" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+clear
+ls
+shutdown
+sway
+cd code/notification-platform
+tree
+rm logs/api-gateway.log logs/delivery.log logs/user-service.log 
+tree
+v services/api-gateway/main.go
+v services/delivery-service/main.go
+v services/queue-service/consumer/consumer.go
+v services/queue-service/producer/producer.go
+tree
+cd services/user-service
+ls
+clear
+ls
+v main.go
+v handlers/handlers.go
+v models/models.go
+v utils/jwt.go
+cd ..
+v services/user-service/utils/jwt.go
+v services/api-gateway/main.go
+v services/user-service/main.go
+v services/api-gateway/main.go
+v services/queue-service/producer/producer.go
+v services/queue-service/consumer/consumer.go
+cd code/notification-platform
+v services/queue-service/consumer/consumer.go
+v services/user-service/handlers/handlers.go
+v services/user-service/utils/jwt.go
+v services/user-service/models/models.go
+v services/user-service/utils/jwt.go
+v services/delivery-service/main.go
+cd code/notification-platform
+v docker-compose.yml
+v services/user-service/utils/jwt.go
+v services/user-service/models/models.go
+v services/user-service/handlers/handlers.go
+v services/user-service/main.go
+v services/api-gateway/main.go
+v services/delivery-service/main.go
+v start.sh
+chmod +x /home/dara/code/notification-platform/start.sh
+ll
+clear
+v services/delivery-service/main.go
+clear
+sudo reboot
+sway
+cd code/notification-platform
+./start.sh
+v start.sh
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}'
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc1NjUwNTMsInJvbGUiOiJjbGllbnQifQ.kEgUDufvKV0LeeWlnhdEN-__krgG9WV9Paz65-YmWeM" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc1NjUwNTMsInJvbGUiOiJjbGllbnQifQ.kEgUDufvKV0LeeWlnhdEN-__krgG9WV9Paz65-YmWeM" \\
+  -d '{"channel":"telegram","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"123456789"}'
+v logs/delivery.log
+v services/api-gateway/main.go
+v start.sh
+chmod +x /home/dara/code/notification-platform/start.sh
+reboot
+sway
+cd code/notification-platform
+./start.sh
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}'
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc1NjU2MDAsInJvbGUiOiJjbGllbnQifQ.WYise5nym-GJLLDPWhrHIpXtw-SHDcV-LrA0WQNoIVI" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+v services/api-gateway/main.go
+v services/delivery-service/main.go
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc1NjU2MDAsInJvbGUiOiJjbGllbnQifQ.WYise5nym-GJLLDPWhrHIpXtw-SHDcV-LrA0WQNoIVI" \\
+  -d '{"channel":"telegram","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"123456789"}'
+clear
+v services/delivery-service/main.go
+tail -f /home/dara/code/notification-platform/logs/delivery.log
+tail -f /home/dara/code/notification-platform/logs/user-service.log
+tail -f /home/dara/code/notification-platform/logs/api-gateway.log
+v services/delivery-service/main.go
+reboot
+sway
+cd code/notification-platform
+./start.sh
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}'
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc1NzY0NzksInJvbGUiOiJjbGllbnQifQ.bej5rYO1Z1mfsDYxz6mlm09D07Rdd3Z6_SgTMJaBNXE" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+v logs/delivery.log
+v services/delivery-service/main.go
+reboot
+sway
+cd code/notification-platform
+./start.sh
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}'
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc1NzcxMDAsInJvbGUiOiJjbGllbnQifQ.d0q0V3VEt2G_KrsAvur6AT3UrRFTUxPFCLY9pan13QU" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"test@example.com"}'
+v services/delivery-service/main.go
+clear
+v services/delivery-service/main.go
+reboot
+sway
+cd code/notification-platform
+./start.sh
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}'
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc1Nzg2MTIsInJvbGUiOiJjbGllbnQifQ.3uun_cWBqnGnYsJO_7PWgoLZGv1aV2B8lD3OhD8oRRA" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"re.kitaev@gmail.com"}'
+v logs/delivery.log
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc1Nzg2MTIsInJvbGUiOiJjbGllbnQifQ.3uun_cWBqnGnYsJO_7PWgoLZGv1aV2B8lD3OhD8oRRA" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"re.kitaev@gmail.com"}'
+v logs/delivery.log
+v services/delivery-service/main.go
+reboot
+sway
+cd code/notification-platform
+./start.sh
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}'
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc2NDkwMjksInJvbGUiOiJjbGllbnQifQ.6ax0pDw98F3CyxzmpusC3p8FvJ5y9qICekU7KCrU9zQ" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"re.kitaev@gmail.com"}'
+v logs/delivery.log
+v services/delivery-service/main.go
+v logs/delivery.log
+v services/delivery-service/main.go
+sudo pacman -S swacks
+paru -S swacks
+sudo pacman -S swaks
+swaks --to re.kitaev@gmail.com --from ki743v@yandex.ru --server smtp.yandex.ru:465 --auth-user ki743v@yandex.ru --auth-password hcrhkeqgeviwmvxl
+swaks --to re.kitaev@gmail.com --from ki743v@yandex.ru --server smtp.yandex.ru:465 --auth-user ki743v@yandex.ru --auth-password a21w9n703
+swaks --to re.kitaev@gmail.com --from ki743v@yandex.ru --server smtp.yandex.ru:465 --auth-user ki743v@yandex.ru --auth-password hcrhkeqgeviwmvxl
+swaks --to re.kitaev@gmail.com --from ki743v@yandex.ru --server smtp.yandex.ru:465 --auth-user ki743v@yandex.ru --auth-password a21w9n703
+swaks --to re.kitaev@gmail.com --from ki743v@yandex.ru --server smtp.yandex.ru:465 --auth-user ki743v@yandex.ru --auth-password hcrhkeqgeviwmvxl
+swaks --to re.kitaev@gmail.com --from ki743v@yandex.ru --server smtp.yandex.ru:465 --auth-user ki743v@yandex.ru --auth-password вау�_app_password --ssl
+swaks --to re.kitaev@gmail.com --from ki743v@yandex.ru --server smtp.yandex.ru:465 --auth-user ki743v@yandex.ru --auth-password a21w9n703 --ssl
+swaks --to re.kitaev@gmail.com --from ki743v@yandex.ru --server smtp.yandex.ru:587 --auth-user ki743v@yandex.ru --auth-password a21w9n703 --tls
+swaks --to re.kitaev@gmail.com --from ki743v@yandex.ru --server smtp.yandex.ru:587 --auth-user ki743v@yandex.ru --auth-password hcrhkeqgeviwmvxl --tls
+swaks --to re.kitaev@gmail.com \\
+  --from ki743v@yandex.ru \\
+  --server smtp.yandex.ru:587 \\
+  --auth-user ki743v@yandex.ru \\
+  --auth-password hcrhkeqgeviwmvxl \\
+  --tls \\
+  --body "Content-Type: text/html\r\n<html><body><h1>Ѓ�ажное у�ведомление</h1><p>Ѓ�дравству�йте! Это тестовое у�ведомление от систему�.</p></body></html>" \\
+  --header "Subject: Ѓ�естовое у�ведомление" \\
+  --header "Message-ID: <test-123@yandex.ru>"
+v services/delivery-service/main.go
+swaks --to re.kitaev@gmail.com \\
+  --from ki743v@yandex.ru \\
+  --server smtp.yandex.ru:587 \\
+  --auth-user ki743v@yandex.ru \\
+  --auth-password hcrhkeqgeviwmvxl \\
+  --tls \\
+  --body "Content-Type: text/html\r\n<html><body><h1>Уведомление</h1><p>Ѓ�дравству�йте! Это важное у�ведомление от систему�.</p><p>Ѓ� у�важением,<br>Ѓ�оманда поддержки</p></body></html>" \\
+  --header "Subject: Ѓ�ажное у�ведомление" \\
+  --header "Message-ID: <$(date +%s)@yandex.ru>" \\
+  --header "Date: $(date -u +'%a, %d %b %Y %H:%M:%S +0000')"
+swaks --to re.kitaev@gmail.com \\
+  --from ki743v@yandex.ru \\
+  --server smtp.yandex.ru:587 \\
+  --auth-user ki743v@yandex.ru \\
+  --auth-password hcrhkeqgeviwmvxl \\
+  --tls \\
+  --body "Content-Type: text/html\r\n<html><body><h1>Уведомление</h1><p>у�ай.</p><p>бай</p></body></html>" \\
+  --header "Subject: у�ау�ау�аау�ау�ау�" \\
+  --header "Message-ID: <$(date +%s)@yandex.ru>" \\
+  --header "Date: $(date -u +'%a, %d %b %Y %H:%M:%S +0000')"
+swaks --to re.kitaev@gmail.com \\
+  --from ki743v@yandex.ru \\
+  --server smtp.yandex.ru:587 \\
+  --auth-user ki743v@yandex.ru \\
+  --auth-password hcrhkeqgeviwmvxl \\
+  --tls \\
+  --body "Content-Type: text/html\r\n<html><body><h1>Уведомление</h1><p>Ѓ�дравству�йте! Это важное у�ведомление от систему�.</p><p>Ѓ� у�важением,<br>Ѓ�оманда поддержки</p></body></html>" \\
+  --header "Subject: Ѓ�ажное у�ведомление" \\
+  --header "Message-ID: <$(date +%s)@yandex.ru>" \\
+  --header "Date: $(date -u +'%a, %d %b %Y %H:%M:%S +0000')"
+clera
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}'
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc2NTI3MzgsInJvbGUiOiJjbGllbnQifQ.Um-9EHQLqQEe_SHN_TtJetQzn3TCGWFSuYJUiaGP3S8" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"re.kitaev@gmail.com"}'
+v logs/delivery.log
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}'
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc2NTQwNTQsInJvbGUiOiJjbGllbnQifQ.eFgt9azrYOybiJZkULiSeu5wvXzUh9rmMmmVU5nHiv0" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"re.kitaev@gmail.com"}'
+v logs/delivery.log
+ll
+tree
+v services/user-service/handlers/handlers.go
+swaycfg
+sudo pacman -S flameshot
+swaycfg
+flameshot
+ll
+cd .config
+ls
+cd ..
+sudo pacman -Rscun flameshot
+sudo pacman -S grim gscreenshot
+sudo pacman -S grim
+grim
+ll
+img 20250518_19h08m22s_grim.png
+rm 20250518_19h08m22s_grim.png
+curl -X POST http://localhost:8081/register \\
+  -H "Content-Type: application/json" \\
+  -d '{"email":"test@example.com","password":"password123"}'
+curl -X POST http://localhost:8080/send \\
+  -H "Content-Type: application/json" \\
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJleHAiOjE3NDc2NzA5ODcsInJvbGUiOiJjbGllbnQifQ.fKlQd9xpbkgkRz7gKBvAlXWpXR4XTeZR9CysBVx3hVo" \\
+  -d '{"channel":"email","message":"Ѓ�ривет! Это тестовое у�ведомление.","user_id":"re.kitaev@gmail.com"}'
+ll
+img 20250518_19h10m20s_grim.png
+ll
+rm 20250518_19h10m20s_grim.png
+Email у�спеу�но отправлен на re.kitaev@gmail.com\
+Telegram-сообу�ение отправлено
+v sada
+cd code/notification-platform
+ls
+v services
+tree
+v services/delivery-service/main.go
+reboot
+sway
+history
+clear
+cd .local/state
+ls
+cd ../share
+ll
+cd zsh
+ls
+v chpwd-recent-dirs
+zshrc
+v .zprofile
+cd
+v .zprofile
+cd .cache
+ls
+cd zsh
+lls
+ll
+v zsh/aliases.zsh
+v zsh_history
+v pacman.log
+sudo -E systemctl edit paccache.service\
+
+v /etc/pacman.d/\
+
+sudo nvim /etc/pacman.conf\
+
+sudo -E nvim /etc/pacman.conf\
+
+v pacman.log
+sudo -E nvim /etc/pacman.conf\
+
+v pacman.log
+sudo -E nvim /usr/share/libalpm/hooks/paccache.hook\
+
+systemctl cat paccache.service | grep "ExecStart"\
+
+systemctl list-timers | grep paccache\
+
+sudo pacman -Syyu
+cat /etc/profile.d/env.sh\
+
+reboot
+sway
+sudo pacman -Rscun docker docker-compose kubectl helm protobuf
+clear
+ls
+rm 20250518_19h12m15s_grim.png 20250518_19h19m33s_grim.png 20250518_19h20m14s_grim.png 
+ls
+v pacman.log
+clear
+ls
+cd code
+ls
+clear
+ls
+cd
+clear
+ll
+v .zprofile
+man eza
+clear
+ls
+exec bash
+which bash
+cat /etc/shells
+chsh -s /bin/bash
+reboot
+sway
+exec bash
+confgi
+config
+ls
+mkdir bash
+cd bash
+ls
+cd
+cd -
+ls
+cp .zprofile .bash_profile
+ls
+v .bash_
+v .bash_profile
+exec bash
+config
+zsh
+ls
+zsh
+cd zsh
+ls
+ll
+clear
+ll
+v .zshrc
+v .bashrc
+exec bash
+cd ..
+cp zsh/aliases.zsh bash/
+cd bash/
+ls
+cp aliases.zsh aliases
+exec bash
+cd .config
+ls
+cd
+v .bash_profile
+ll
+rm .bash_history
+exec bash
+config
+ls
+cd bash
+ll
+rm aliases.zsh
+v aliases
+v .bashrc
+v .bash_profile
+exec bash
+v .bash_profile
+exec bash
+cd .config
+cd bash
+ls
+v .bashrc
+exec bash
+cd .config/bash
+v .bashrc
+curl -sSL https://github.com/shyiko/commacd/raw/v1.0.0/commacd.sh -o ~/.commacd.sh && \\
+  echo "source ~/.commacd.sh" >> ~/.bashrc
+curl -sSL https://github.com/shyiko/commacd/raw/v1.0.0/commacd.sh -o ~/.commacd.sh && \\
+  echo "source ~/.commacd.sh" >> ~/.config/bash/.bashrc
+ll
+v .bashrc
+exec bash
+: 1747663295:0;ll
+: 1747663310:0;v .config/bash/.bashrc
+: 1747663329:0;source .bash_profile
+: 1747663400:0;ls
+: 1747663401:0;clear
+: 1747663401:0;ls
+: 1747664269:0;ll
+: 1747664274:0;rm .bash_history .bash_profile 
+: 1747664275:0;ls
+: 1747664282:0;rm .commacd.sh
+: 1747664282:0;ls
+: 1747664283:0;ll
+: 1747664285:0;clear
+: 1747664286:0;ls
+: 1747664288:0;cd .config
+: 1747664288:0;ls
+: 1747664291:0;rm bash
+: 1747671878:0;ls
+: 1747671880:0;ll
+: 1747671883:0;cd .cache
+: 1747671884:0;ls
+: 1747671903:0;cd ..
+: 1747671904:0;ll
+: 1747671907:0;cd .config
+: 1747671907:0;ls
+: 1747671910:0;cd ..
+: 1747671913:0;cd .local/state
+: 1747671913:0;ls
+: 1747671915:0;cd ..
+: 1747671918:0;cd share
+: 1747671919:0;ls
+: 1747671920:0;ll
+: 1747671924:0;cd ..
+: 1747671924:0;ls
+: 1747671927:0;cd ..
+: 1747671928:0;ll
+: 1747671932:0;cd .pki
+: 1747671932:0;ls
+: 1747671935:0;cd nssdb
+: 1747671935:0;ls
+: 1747671937:0;cd
+: 1747671938:0;ll
+: 1747671939:0;cd /
+: 1747671940:0;ll
+: 1747671995:0;cd usr/bin
+: 1747671996:0;ls
+: 1747672039:0;cd
+: 1747672042:0;cd -
+: 1747672043:0;ll
+: 1747672045:0;clear
+: 1747672046:0;c
+: 1747672047:0;cd
+: 1747672047:0;l
+: 1747672049:0;clear
+: 1747672049:0;l
+: 1747672091:0;sudo pacman -S nautilus
+: 1747672100:0;sudo pacman -S nautilus xplr
+: 1747672123:0;swaycfg
+: 1747672217:0;xplr
+: 1747672694:0;sudo pacman -S nemo
+: 1747672955:0;xplr
+: 1747725552:0;ls
+: 1747725555:0;cd .config
+: 1747725556:0;ls
+: 1747725568:0;git init
+: 1747725577:0;ga .
+: 1747725592:0;git commit -m "haha"
+: 1747725605:0;git config --global user.name "Your Name"
+: 1747725607:0;git commit -m "haha"
+: 1747725612:0;git remote add origin git@github.com:skillissu3e/migrate2bash.git
+: 1747725620:0;git branch -M main
+: 1747725624:0;git push -u origin main
+: 1747725696:0;ssh-keygen -t rsa -b 4096 -C "joe@example.com"
+: 1747725713:0;cat .ssh/id_rsa.pub
+: 1747725763:0;v .ssh/id_rsa.pub
+: 1747725799:0;git push -u origin main
+: 1747725803:0;cd .config
+: 1747725805:0;git push -u origin main
+: 1747725840:0;cd .config
+: 1747725844:0;git push -u origin main
+: 1747725943:0;ls
+: 1747725980:0;cd
+: 1747725981:0;ll
+: 1747726029:0;cp .zprofile code pacman.log .cache/zsh/zsh_history ~/.config
