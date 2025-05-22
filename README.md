@@ -69,10 +69,10 @@ alias mkdir='mkdir -p'
 alias reboot='sudo reboot'
 alias shutdown='sudo shutdown -h now'
 
-alias ls='eza --icons --color=always'
-alias sl='eza --icons --color=always'
-alias tree='eza --all --icons --sort=type -T'
-alias ll='eza -laghm@ --all --icons --git --color=always'
+#alias ls='eza --icons --color=always'
+#alias sl='eza --icons --color=always'
+#alias tree='eza --all --icons --sort=type -T'
+#alias ll='eza -laghm@ --all --icons --git --color=always'
 
 # Git
 alias ga='git add .'
@@ -86,7 +86,7 @@ alias gp='git push -u origin master'
 # Usage: '.. 3' takes you 3 folders up
 ..() { cd "$(eval printf '../%.0s' {1..$1})" || return 1; }
 
-# Usage: extract file
+# Usage: extract file   
 extract () {
     if [ -f $1 ] ; then
         case $1 in
