@@ -68,10 +68,10 @@ alias mkdir='mkdir -p'
 alias reboot='sudo reboot'
 alias shutdown='sudo shutdown -h now'
 
-alias ls='lsd --color=always --icon=always'
-alias sl='lsd --color=always --icon=always'
-alias tree='lsd --almost-all --icon=always --sort=extension --tree'
-alias ll='lsd --long --almost-all --git --color=always --icon=always'
+alias ls='eza --icons --color=always'
+alias sl='eza --icons --color=always'
+alias tree='eza --all --icons --sort=type -T'
+alias ll='eza -laghm@ --all --icons --git --color=always'
 
 # Git
 alias ga='git add .'
@@ -86,7 +86,7 @@ alias gp='git push -u origin master'
 ..() { cd "$(eval printf '../%.0s' {1..$1})" || return 1; }
 
 # Usage: extract file
-ex () {
+extract () {
     if [ -f $1 ] ; then
         case $1 in
             *.tar.bz2)   tar xvjf $1                  ;;
