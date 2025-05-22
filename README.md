@@ -31,6 +31,7 @@ export GOBIN="$GOPATH/bin"
 export GOMODCACHE="$XDG_CACHE_HOME/go/mod"
 export NPM_CONFIG_PREFIX="$XDG_DATA_HOME/npm"
 export NPM_CONFIG_CACHE="$XDG_CACHE_HOME/npm"
+export GNUPGHOME="$XDG_DATA_HOME/gnupg"
 export DATE=$(date "+%-d %B %Y, %A, %T")
 export MANPAGER="nvim +Man!"
 
